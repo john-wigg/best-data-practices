@@ -1,8 +1,12 @@
 # Documenting Data: Best Practices
 
+Eine coole Beschreibung, was genau das Ziel dieses Artikels ist.
+
+Die Links zu den Headern in der Checkliste funktionieren so nur auf GitHub vermutlich.
+
 ## Checklist
 
-[Licence](#licence) *Das sollte auf GitHub zu dem entsprechenden Header springen.*
+[Licence](#licence)
 
 ### Licence
 
