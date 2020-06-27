@@ -12,6 +12,7 @@ Die Links zu den Headern in der Checkliste funktionieren so nur auf GitHub vermu
 [Versioning](#versioning)  
 [Keeping track of processing](#keeping-track-of-processing)  
 [README](#readme)  
+[Persistent identifier](#persistent-identifier)
 
 ### Metadata standard
 This is the most important of the following points:
@@ -38,7 +39,7 @@ Creative Commons Licenses may also be a good choice since they allow you to cont
   * Very long names are problematic for certain software, so avoid.
   * Use leading zeros for sequential numbering.
 * Include date in sensible format.
-* Use some organizational elements for fast identification such as short name of location.
+* Use some organisational elements for fast identification such as short name of location.
 
 ![Example for bad practice](https://imgs.xkcd.com/comics/documents.png (An example for very bad practice https://xkcd.com/1459/))
 
@@ -66,3 +67,8 @@ Keep a README or something similar in your file folders to give other users of y
 * Variable List: Describe the variables used in the data files
 * Code list: Explain the abbreviations used in your project
 * Null character: Specify which Null character you used
+
+### Persistent identifier
+
+Use a persistent Digital identifier for your project (DOI) as well as for yourself (e.g. [ORCID](https://orcid.org/)).
+They will help your project in staying findable, accesible and connected to you.
