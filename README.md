@@ -49,7 +49,6 @@ It is also a good idea to make sure that your sources stay accessible long after
 **REMEMBER**
 
 Cite all your sources consistently and permanently.
-
 ***
 
 
