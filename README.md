@@ -69,16 +69,12 @@ There are good resources to learn about and choose the correct license for your 
 A very popular choice are the *Creative Commons* licenses (https://creativecommons.org/licenses/). They allow control of what can be done with your data.
 
 If you are working on a software project, the MIT license is a very clear permissive license. The GNU General Public License is also a very popular choice amongst open-source software projects.
-
-<div style="background-color:red">
  
 ***
 **REMEMBER**
 
 Add a license to your data to tell other researchers what they are allowed to with your data!
 ***
-
-</div>
 
 <a id="cite-fair-license"></a>[1] <https://www.go-fair.org/fair-principles/r1-1-metadata-released-clear-accessible-data-usage-license/><br>
 <a id="cite-fair-provenance-2"></a>[2] <https://www.go-fair.org/fair-principles/r1-2-metadata-associated-detailed-provenance/>
