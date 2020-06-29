@@ -6,8 +6,9 @@ Die Links zu den Headern in der Checkliste funktionieren so nur auf GitHub vermu
 
 ## Checklist
 
-- [ ] [Metadata standard](#metadata-standard)  
-- [ ] [Licence](#licence)  
+- [ ] [Metadata standard](#metadata-standard)
+- [ ] [Cite your sources](#cite-your-sources)
+- [ ] [Choose a license](#choose-a-license)  
 - [ ] [File naming](#file-naming)  
 - [ ] [Versioning](#versioning)  
 - [ ] [Keeping track of processing](#keeping-track-of-processing)  
@@ -20,15 +21,35 @@ Use a metadata standard.
 Most points following should already be covered by your chosen standard, so it is a very good idea to pick a standard an then stick to it.
 The standard itself should be easily accessible and widely known, at least in your field. If this is not possible, make sure to preserve the scheme itself and its documentation along with your data and metadata.
 
-### Licence
+### Cite your sources
 
-Pick a license that's well suited for your project.
+As part of data provenance, researchers need to be able to know from where your data comes. This includes giving information on from where you sourced pre-existing data. [1]
 
-For open source projects, this site seems to be informative: https://choosealicense.com/
+Citing your sources may also be a legal requirement, depending on the license of the work you are citing.
 
-A very popular and very permissive license is the MIT License.
+When citing, try to stick to a consistent citation style. Check with people in your field which style to use but use it consistently.
 
-Creative Commons Licenses may also be a good choice since they allow you to control what rights you want to retain: https://creativecommons.org/licenses/
+It is also a good idea to make sure that your sources stay accessible long after publication. *Digital Object Identifiers* (DOI, https://www.doi.org/) are persistent identifiers for all kinds of objects such as papers and data sets. Including a DOI, when available, will guarantee permanent access to the cited resource. Otherwise, using web archive sites to capture persistent "snapshots" of webpages can also be an option. Popular providers are [arhive.today](http://archive.today) as well as [Wayback Machine](https://web.archive.org/save). The generated links can then be included with your citations.
+
+### Choose a license
+
+When opening your project or data to the public, it is important to choose a license. This does not only apply to software projects but really to all kinds of data as well. Without a license, colleagues viewing your publication won't know what they are allowed to with your data and what they aren't.
+
+If publishing in a journals, there may by restrictions on what licenses you are allowed to use so make sure to check with your publisher first.
+
+Licensing may also be a factor when applying the FAIR data principles: To meet the R (Reusable) criteria your *(Meta)data are released with a clear and accessible data usage license*[1]. The protocol you are using should also be *open, free and universally implementable* so make sure you read the licenses of any component you are using as well. Licensing also makes sure that researcher re-using your data know how to cite you, an important aspect of data provenance in FAIR data [2].
+
+There are good resources to learn about and choose the correct license for your publication https://choosealicense.com/.
+
+A very popular choice are the *Creative Commons* licenses (https://creativecommons.org/licenses/). They allow control of what can be done with your data.
+
+If you are working on a software project, the MIT license is a very clear permissive license. The GNU General Public License is also a very popular choice amongst open-source software projects.
+
+***
+**REMEMBER**
+
+Add a license to your data to tell other researchers what they are allowed to with your data!
+***
 
 ### File naming
 
