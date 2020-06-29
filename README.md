@@ -4,6 +4,20 @@ Eine coole Beschreibung, was genau das Ziel dieses Artikels ist.
 
 Die Links zu den Headern in der Checkliste funktionieren so nur auf GitHub vermutlich.
 
+Trick, den ich zum Zitieren benutze:
+
+```
+Die Text zitiert eine Quelle [[1]](#cite-example).
+
+<a id="cite-example"></a>[1] <https://github.com/john-wigg/best-data-practices>
+```
+
+sieht dann so aus:
+
+Die Text zitiert eine Quelle [[1]](#cite-example).
+
+<a id="cite-example"></a>[1] <https://github.com/john-wigg/best-data-practices>
+
 ## Checklist
 
 - [ ] [Metadata standard](#metadata-standard)
@@ -23,7 +37,7 @@ The standard itself should be easily accessible and widely known, at least in yo
 
 ### Cite your sources
 
-As part of data provenance, researchers need to be able to know from where your data comes. This includes giving information on from where you sourced pre-existing data. [1]
+As part of data provenance, researchers need to be able to know from where your data comes. This includes giving information on from where you sourced pre-existing data. [[1]](#cite-fair-provenance-1)
 
 Citing your sources may also be a legal requirement, depending on the license of the work you are citing.
 
@@ -39,7 +53,7 @@ Cite all your sources consistently and permanently.
 ***
 
 
-[1] <https://www.go-fair.org/fair-principles/r1-2-metadata-associated-detailed-provenance/>
+<a id="cite-fair-provenance-1"></a>[1] <https://www.go-fair.org/fair-principles/r1-2-metadata-associated-detailed-provenance/>
 
 
 ### Choose a license
@@ -48,7 +62,7 @@ When opening your project or data to the public, it is important to choose a lic
 
 If publishing in a journals, there may by restrictions on what licenses you are allowed to use so make sure to check with your publisher first.
 
-Licensing may also be a factor when applying the FAIR data principles: To meet the R (Reusable) criteria your *(Meta)data are released with a clear and accessible data usage license*[[1]](#ref-1). The protocol you are using should also be *open, free and universally implementable* so make sure you read the licenses of any component you are using as well. Licensing also makes sure that researcher re-using your data know how to cite you, an important aspect of data provenance in FAIR data [[2]](#ref-2).
+Licensing may also be a factor when applying the FAIR data principles: To meet the R (Reusable) criteria your *(Meta)data are released with a clear and accessible data usage license* [[1]](#cite-fair-license). The protocol you are using should also be *open, free and universally implementable* so make sure you read the licenses of any component you are using as well. Licensing also makes sure that researcher re-using your data know how to cite you, an important aspect of data provenance in FAIR data [[2]](#cite-fair-provenance-2).
 
 There are good resources to learn about and choose the correct license for your publication https://choosealicense.com/.
 
@@ -63,8 +77,8 @@ Add a license to your data to tell other researchers what they are allowed to wi
 
 ***
 
-<a id="ref-1"></a>[1] <https://www.go-fair.org/fair-principles/r1-1-metadata-released-clear-accessible-data-usage-license/><br>
-<a id="ref-2"></a>[2] <https://www.go-fair.org/fair-principles/r1-2-metadata-associated-detailed-provenance/>
+<a id="cite-fair-license"></a>[1] <https://www.go-fair.org/fair-principles/r1-1-metadata-released-clear-accessible-data-usage-license/><br>
+<a id="cite-fair-provenance-2"></a>[2] <https://www.go-fair.org/fair-principles/r1-2-metadata-associated-detailed-provenance/>
 
 ### File naming
 
