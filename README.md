@@ -6,13 +6,13 @@ Die Links zu den Headern in der Checkliste funktionieren so nur auf GitHub vermu
 
 ## Checklist
 
-[Metadata standard](#metadata-standard)  
-[Licence](#licence)  
-[File naming](#file-naming)  
-[Versioning](#versioning)  
-[Keeping track of processing](#keeping-track-of-processing)  
-[README](#readme)  
-[Persistent identifier](#persistent-identifier)
+- [ ] [Metadata standard](#metadata-standard)  
+- [ ] [Licence](#licence)  
+- [ ] [File naming](#file-naming)  
+- [ ] [Versioning](#versioning)  
+- [ ] [Keeping track of processing](#keeping-track-of-processing)  
+- [ ] [README](#readme)  
+- [ ] [Persistent identifier](#persistent-identifier)
 
 ### Metadata standard
 This is the most important of the following points:
