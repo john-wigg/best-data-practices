@@ -48,7 +48,7 @@ When opening your project or data to the public, it is important to choose a lic
 
 If publishing in a journals, there may by restrictions on what licenses you are allowed to use so make sure to check with your publisher first.
 
-Licensing may also be a factor when applying the FAIR data principles: To meet the R (Reusable) criteria your *(Meta)data are released with a clear and accessible data usage license*[1]. The protocol you are using should also be *open, free and universally implementable* so make sure you read the licenses of any component you are using as well. Licensing also makes sure that researcher re-using your data know how to cite you, an important aspect of data provenance in FAIR data [2].
+Licensing may also be a factor when applying the FAIR data principles: To meet the R (Reusable) criteria your *(Meta)data are released with a clear and accessible data usage license*[[1]](#ref-1). The protocol you are using should also be *open, free and universally implementable* so make sure you read the licenses of any component you are using as well. Licensing also makes sure that researcher re-using your data know how to cite you, an important aspect of data provenance in FAIR data [[2]](#ref-2).
 
 There are good resources to learn about and choose the correct license for your publication https://choosealicense.com/.
 
@@ -63,8 +63,8 @@ Add a license to your data to tell other researchers what they are allowed to wi
 
 ***
 
-[1] <https://www.go-fair.org/fair-principles/r1-1-metadata-released-clear-accessible-data-usage-license/><br>
-[2] <https://www.go-fair.org/fair-principles/r1-2-metadata-associated-detailed-provenance/>
+<a id="ref-1"></a>[1] <https://www.go-fair.org/fair-principles/r1-1-metadata-released-clear-accessible-data-usage-license/><br>
+<a id="ref-2"></a>[2] <https://www.go-fair.org/fair-principles/r1-2-metadata-associated-detailed-provenance/>
 
 ### File naming
 
