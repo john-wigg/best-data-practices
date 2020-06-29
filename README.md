@@ -31,6 +31,17 @@ When citing, try to stick to a consistent citation style. Check with people in y
 
 It is also a good idea to make sure that your sources stay accessible long after publication. *Digital Object Identifiers* (DOI, https://www.doi.org/) are persistent identifiers for all kinds of objects such as papers and data sets. Including a DOI, when available, will guarantee permanent access to the cited resource. Otherwise, using web archive sites to capture persistent "snapshots" of webpages can also be an option. Popular providers are [arhive.today](http://archive.today) as well as [Wayback Machine](https://web.archive.org/save). The generated links can then be included with your citations.
 
+***
+**REMEMBER**
+
+Cite all your sources consistently and permanently.
+
+***
+
+
+[1] https://www.go-fair.org/fair-principles/r1-2-metadata-associated-detailed-provenance/
+
+
 ### Choose a license
 
 When opening your project or data to the public, it is important to choose a license. This does not only apply to software projects but really to all kinds of data as well. Without a license, colleagues viewing your publication won't know what they are allowed to with your data and what they aren't.
@@ -49,7 +60,11 @@ If you are working on a software project, the MIT license is a very clear permis
 **REMEMBER**
 
 Add a license to your data to tell other researchers what they are allowed to with your data!
+
 ***
+
+[1] https://www.go-fair.org/fair-principles/r1-1-metadata-released-clear-accessible-data-usage-license/
+[2] https://www.go-fair.org/fair-principles/r1-2-metadata-associated-detailed-provenance/
 
 ### File naming
 
