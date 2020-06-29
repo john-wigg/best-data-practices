@@ -91,7 +91,7 @@ Add a license to your data to tell other researchers what they are allowed to wi
 * Include date in sensible format.
 * Use some organisational elements for fast identification such as short name of location.
 
-![Example for bad practice](https://imgs.xkcd.com/comics/documents.png (An example for very bad practice https://xkcd.com/1459/))
+![Example for bad practice](https://imgs.xkcd.com/comics/documents.png "An example for very bad practice https://xkcd.com/1459/")
 
 ### Versioning
 
