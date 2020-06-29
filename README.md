@@ -39,7 +39,7 @@ Cite all your sources consistently and permanently.
 ***
 
 
-[1] https://www.go-fair.org/fair-principles/r1-2-metadata-associated-detailed-provenance/
+[1] <https://www.go-fair.org/fair-principles/r1-2-metadata-associated-detailed-provenance/>
 
 
 ### Choose a license
@@ -63,8 +63,8 @@ Add a license to your data to tell other researchers what they are allowed to wi
 
 ***
 
-[1] https://www.go-fair.org/fair-principles/r1-1-metadata-released-clear-accessible-data-usage-license/
-[2] https://www.go-fair.org/fair-principles/r1-2-metadata-associated-detailed-provenance/
+[1] <https://www.go-fair.org/fair-principles/r1-1-metadata-released-clear-accessible-data-usage-license/><br>
+[2] <https://www.go-fair.org/fair-principles/r1-2-metadata-associated-detailed-provenance/>
 
 ### File naming
 
