@@ -23,6 +23,7 @@ Die Text zitiert eine Quelle [[1]](#cite-example).
 - [ ] [Metadata standard](#metadata-standard)
 - [ ] [Cite your sources](#cite-your-sources)
 - [ ] [Choose a license](#choose-a-license)
+- [ ] [Data inventory](#data-inventory)
 - [ ] [Consider file formats](#consider-file-formats)
 - [ ] [File naming](#file-naming)  
 - [ ] [Versioning](#versioning)  
@@ -76,8 +77,42 @@ If you are working on a software project, the MIT license is a very clear permis
 Add a license to your data to tell other researchers what they are allowed to with your data!
 ***
 
+### Data inventory
+
 <a id="cite-fair-license"></a>[1] <https://www.go-fair.org/fair-principles/r1-1-metadata-released-clear-accessible-data-usage-license/><br>
 <a id="cite-fair-provenance-2"></a>[2] <https://www.go-fair.org/fair-principles/r1-2-metadata-associated-detailed-provenance/>
+
+When working with large amounts of data it is important to keep it organized so that everyone accessing it knows where to find what they are looking for.
+
+Data inventories can not only help with making your data more accessible, they can also contain legal information like [licenses](#choose-a-license), prevent duplicate data or help making more informed decisiion regarding the nature of the data.
+
+A data inventory works by adding metadata to your files. Good attributes for each file are:
+
+* a [unique and persistent identifier]((#persistent-identifier))
+* title
+* description/purpose
+* author/creator
+* manager/owner
+* subject/keywords
+* location
+* creation data
+* update frequency
+* file type (e.g. image)
+* [file format (e.g. JPEG)](#consider-file-formats)
+* [license](#add-a-license)
+
+Of course, this list can be refined to your needs.
+
+Collecting the metadata can be done in different ways depending on the size and/or organization of your project: You can delegate the responsibility of adding metadata to the creators or owners of each dataset, conduct surveys and interviews with them or create an automated process that prompts data creators to add their own metadata. 
+
+For small projects, adding a spreadsheet containing the metadata may be sufficient larger projects may need to use databases. Be careful about the information you are sharing and follow privacy guidelines. [[1]](#cite-inventory)
+
+<a id="cite-inventory"></a>[1] T. Beale et al.: How to create a data inventory <https://doi.org/10.21955/gatesopenres.1114885.1>
+
+***
+***REMEMBER***
+A data inventory makes your data more accessible. It consists of metadata that documents important properties of each file.
+***
 
 ### Consider file formats
 
