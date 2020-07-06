@@ -22,7 +22,8 @@ Die Text zitiert eine Quelle [[1]](#cite-example).
 
 - [ ] [Metadata standard](#metadata-standard)
 - [ ] [Cite your sources](#cite-your-sources)
-- [ ] [Choose a license](#choose-a-license)  
+- [ ] [Choose a license](#choose-a-license)
+- [ ] [Consider file formats](#consider-file-formats)
 - [ ] [File naming](#file-naming)  
 - [ ] [Versioning](#versioning)  
 - [ ] [Keeping track of processing](#keeping-track-of-processing)  
@@ -77,6 +78,28 @@ Add a license to your data to tell other researchers what they are allowed to wi
 
 <a id="cite-fair-license"></a>[1] <https://www.go-fair.org/fair-principles/r1-1-metadata-released-clear-accessible-data-usage-license/><br>
 <a id="cite-fair-provenance-2"></a>[2] <https://www.go-fair.org/fair-principles/r1-2-metadata-associated-detailed-provenance/>
+
+### Consider file formats
+
+When publishing your data, it is important that fellow researchers can actually view it. The best course of action to achieve this is to use *open* file formats or file formats that are widely adopted to the point of being a standard.
+
+For images, this is usually pretty easy, as the most commonly used formats like JPEG and PNG are already open standards. Video codecs sometimes aren't open but will still be recognized by commonly available programs.
+
+When sharing datasets though, this may be a bit more complicated. Consider the following scenario: You are using a program that your institution bought an expensive license for to edit your data. The program offers a proprietary file format to store the data. However, a fellow researcher may not have the means to buy a license for the program. The version you are using may also become outdated and no longer available. Due to the proprietary nature of the file format, the researcher cannot view the data in any other way.
+
+In order to prevent this, *convert* your datafiles to an open format after you finished working on them. If no suitable format exists, create your own format but remember to document it properly so that other researchers know how to read or open it.
+
+Also, don't reinvent the wheel: Chances are, a file format capable of storing your data already exists. Use it instead of creating your own.
+
+![](https://imgs.xkcd.com/comics/standards.png)
+
+*If there is no way around storing the data in a proprietary format, document the programs and **versions** used to access the data. When legally possible, you can also supply a build of the software you used along with the data.*
+
+***
+**REMEMBER**
+
+Use open and/or commonly supported file formats for all of your data. Document any custom file formats.
+***
 
 ### File naming
 
