@@ -23,5 +23,7 @@ input[type="checkbox"]:checked+label::before {
 }
 
 .tip {
-  background-color: salmon
+  background-color: mistyrose;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
