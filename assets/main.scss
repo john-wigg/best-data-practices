@@ -26,4 +26,9 @@ input[type="checkbox"]:checked+label::before {
   background-color: mistyrose;
   padding-top: 20px;
   padding-bottom: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-style: dashed;
+  border-color: salmon;
+  border-radius: 5px;
 }
