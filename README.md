@@ -58,7 +58,7 @@ A data inventory is a full record of all files contained in your dataset. It rec
 
 For small projects, a fully fleshed out data inventory may not be necessary. Instead, a spreadsheet or a readme file explaining your data structure may suffice. Larger projects, however, may use databases for their inventories.
 
-Compiling the metadata for your data inventory can be done in different ways depending on the size and/or organization of your project: You can delegate the responsibility of adding metadata to the creators or owners of each dataset, conduct surveys and interviews with them, or create an automated process that prompts data creators to add their own metadata. Make sure to adhere to any [metadata standards](#metadata-standards) you are using. Also, be careful about the information you are sharing publicly and follow privacy guidelines. [[2]](#cite-beale-inventory)
+Compiling the metadata for your data inventory can be done in different ways depending on the size and/or organisation of your project: You can delegate the responsibility of adding metadata to the creators or owners of each dataset, conduct surveys and interviews with them, or create an automated process that prompts data creators to add their own metadata. Make sure to adhere to any [metadata standards](#metadata-standards) you are using. Also, be careful about the information you are sharing publicly and follow privacy guidelines. [[2]](#cite-beale-inventory)
 
 <a id="cite-hopkins-inventory"></a>[1] John Hopkins University - Center for Government Excellence <https://labs.centerforgov.org/data-governance/data-inventory/><br>
 <a id="cite-beale-inventory"></a>[2] T. Beale et al.: How to create a data inventory <https://doi.org/10.21955/gatesopenres.1114885.1>
@@ -74,13 +74,13 @@ A data inventory makes your data more accessible. It is a complete record of all
 
 When publishing your data, it is important that fellow researchers can actually view it. The best course of action to achieve this is to use *open* file formats or file formats that are widely adopted to the point of being a standard.
 
-For images, this is usually pretty easy, as the most commonly used formats like JPEG and PNG are already open standards. Video codecs sometimes aren't open but will still be recognized by commonly available programs.
+For images, this is usually pretty easy, as the most commonly used formats like JPEG and PNG are already open standards. Video codecs sometimes are not open but will still be recognized by commonly available programs.
 
 When sharing datasets though, this may be a bit more complicated. Consider the following scenario: You are using a program that your institution bought an expensive license for to edit your data. The program offers a proprietary file format to store the data. However, a fellow researcher may not have the means to buy a license for the program. The version you are using may also become outdated and no longer available. Due to the proprietary nature of the file format, the researcher cannot view the data in any other way.
 
 In order to prevent this, *convert* your datafiles to an open format after you finished working on them. If no suitable format exists, create your own format but remember to document it properly so that other researchers know how to read or open it.
 
-Also, don't reinvent the wheel: Chances are, a file format capable of storing your data already exists. Use it instead of creating your own.
+Also, do not reinvent the wheel: Chances are, a file format capable of storing your data already exists. Use it instead of creating your own.
 
 *If there is no way around storing the data in a proprietary format, document the programs and **versions** used to access the data (see also [provenance](#provenance)). When legally possible, you can also supply a build of the software you used along with the data.*
 
@@ -94,14 +94,15 @@ Use open and/or commonly supported file formats for all of your data. Document a
 
 ### Use a file naming scheme
 
-* Develop a naming scheme right at the beginning of your project. Stay consistent, if you change your naming scheme, adapt the changes everywhere, even old files.
-* Formatting:
+Develop a naming scheme right at the beginning of your project. Stay consistent, if you change your naming scheme, adapt the changes everywhere, even old files.
+
+Also, observe some guidelines on formatting your file names so as to achieve good readability by humans as well as machines:
   * Avoid spaces.
   * Seperate words by using underscores or use CamelCase.
   * Very long names are problematic for certain software, so avoid.
   * Use leading zeros for sequential numbering.
-* Include date in sensible format.
-* Use some organisational elements for fast identification such as short name of location.
+  
+It is also a good idea to include the date in sensible format or use some organisational elements for fast identification such as short names for locations.
 
 ![Example for bad practice](https://imgs.xkcd.com/comics/documents.png "An example for very bad practice https://xkcd.com/1459/")
 
