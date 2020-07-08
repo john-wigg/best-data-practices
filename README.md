@@ -21,9 +21,13 @@ Die Text zitiert eine Quelle [[1]](#cite-example).
 ## Checklist
 
 - [ ] [Metadata standard](#metadata-standard)
+- [ ] [File management](#file-management)
+    - [ ] [Create a data inventory](#create-a-data-inventory)
+    - [ ] [Consider file formats](#consider-file-formats)
+    - [ ] [Use a file naming scheme](#use-a-file-naming-scheme)
 - [ ] [Cite your sources](#cite-your-sources)
 - [ ] [Choose a license](#choose-a-license)
-- [ ] [Data inventory](#data-inventory)
+- [ ] [Create a data inventory](#create-a-data-inventory)
 - [ ] [Consider file formats](#consider-file-formats)
 - [ ] [File naming](#file-naming)  
 - [ ] [Versioning](#versioning)  
@@ -43,6 +47,61 @@ Enter the name of the dataset or the project that produced it. If you choose to 
 ### Creator 
 Enter the Names of the researchers, that are mainly involved in creating the dataset, or the authors of the publication in order of priority.
 One good practices concerning names in general is transcribing names in Latin script, when coming from another writing system. ALA-LC (American Library Association - Library of Congress) is a set of standards for romanization, that can help you with this topic. For further information, see [ALA-LC](https://www.loc.gov/catdir/cpso/roman.html).
+
+## File Management
+
+### Create a data inventory
+
+A data inventory is a full record of all files contained in your dataset. It records the location and metadata of your files and makes it easier for the viewer to narrow down which files are relevant to them. [[1]](#cite-hopkins-inventory)
+
+For small projects, a fully fleshed out data inventory may not be necessary. Instead, a spreadsheet or a readme file explaining your data structure may suffice. Larger projects, however, may use databases for their inventories.
+
+Compiling the metadata for your data inventory can be done in different ways depending on the size and/or organization of your project: You can delegate the responsibility of adding metadata to the creators or owners of each dataset, conduct surveys and interviews with them, or create an automated process that prompts data creators to add their own metadata. Make sure to adhere to any [metadata standards](#metadata-standards) you are using. Also, be careful about the information you are sharing publicly and follow privacy guidelines. [[2]](#cite-beale-inventory)
+
+<a id="cite-hopkins-inventory"></a>[1] John Hopkins University - Center for Government Excellence <https://labs.centerforgov.org/data-governance/data-inventory/><br>
+<a id="cite-beale-inventory"></a>[2] T. Beale et al.: How to create a data inventory <https://doi.org/10.21955/gatesopenres.1114885.1>
+
+***
+
+***REMEMBER***
+A data inventory makes your data more accessible. It is a complete record of all files and their metadata
+
+***
+
+### Consider file formats
+
+When publishing your data, it is important that fellow researchers can actually view it. The best course of action to achieve this is to use *open* file formats or file formats that are widely adopted to the point of being a standard.
+
+For images, this is usually pretty easy, as the most commonly used formats like JPEG and PNG are already open standards. Video codecs sometimes aren't open but will still be recognized by commonly available programs.
+
+When sharing datasets though, this may be a bit more complicated. Consider the following scenario: You are using a program that your institution bought an expensive license for to edit your data. The program offers a proprietary file format to store the data. However, a fellow researcher may not have the means to buy a license for the program. The version you are using may also become outdated and no longer available. Due to the proprietary nature of the file format, the researcher cannot view the data in any other way.
+
+In order to prevent this, *convert* your datafiles to an open format after you finished working on them. If no suitable format exists, create your own format but remember to document it properly so that other researchers know how to read or open it.
+
+Also, don't reinvent the wheel: Chances are, a file format capable of storing your data already exists. Use it instead of creating your own.
+
+*If there is no way around storing the data in a proprietary format, document the programs and **versions** used to access the data (see also [provenance](#provenance)). When legally possible, you can also supply a build of the software you used along with the data.*
+
+***
+
+**REMEMBER**
+
+Use open and/or commonly supported file formats for all of your data. Document any custom file formats.
+
+***
+
+### Use a file naming scheme
+
+* Develop a naming scheme right at the beginning of your project. Stay consistent, if you change your naming scheme, adapt the changes everywhere, even old files.
+* Formatting:
+  * Avoid spaces.
+  * Seperate words by using underscores or use CamelCase.
+  * Very long names are problematic for certain software, so avoid.
+  * Use leading zeros for sequential numbering.
+* Include date in sensible format.
+* Use some organisational elements for fast identification such as short name of location.
+
+![Example for bad practice](https://imgs.xkcd.com/comics/documents.png "An example for very bad practice https://xkcd.com/1459/")
 
 ### Date and date type
 When dates are involved it is important to name the format related to the date. Otherwise it is not clear how to process the data. Most meta data standards desribe the selectable options quit well, for example DataCite accepts all date formats defined by the [World Wide Web Consortium](https://www.w3.org/) (W3C). Other standards may encourage you to use ISO 8601.
@@ -103,78 +162,6 @@ If you are working on a software project, the MIT license is a very clear permis
 
 Add a license to your data to tell other researchers what they are allowed to with your data!
 ***
-
-### Data inventory
-
-<a id="cite-fair-license"></a>[1] <https://www.go-fair.org/fair-principles/r1-1-metadata-released-clear-accessible-data-usage-license/><br>
-<a id="cite-fair-provenance-2"></a>[2] <https://www.go-fair.org/fair-principles/r1-2-metadata-associated-detailed-provenance/>
-
-When working with large amounts of data it is important to keep it organized so that everyone accessing it knows where to find what they are looking for.
-
-Data inventories can not only help with making your data more accessible, they can also contain legal information like [licenses](#choose-a-license), prevent duplicate data or help making more informed decisiion regarding the nature of the data.
-
-A data inventory works by adding metadata to your files. Good attributes for each file are:
-
-* a [unique and persistent identifier]((#persistent-identifier))
-* title
-* description/purpose
-* author/creator
-* manager/owner
-* subject/keywords
-* location
-* creation data
-* update frequency
-* file type (e.g. image)
-* [file format (e.g. JPEG)](#consider-file-formats)
-* [license](#add-a-license)
-
-Of course, this list can be refined to your needs.
-
-Collecting the metadata can be done in different ways depending on the size and/or organization of your project: You can delegate the responsibility of adding metadata to the creators or owners of each dataset, conduct surveys and interviews with them or create an automated process that prompts data creators to add their own metadata. 
-
-For small projects, adding a spreadsheet containing the metadata may be sufficient larger projects may need to use databases. Be careful about the information you are sharing and follow privacy guidelines. [[1]](#cite-inventory)
-
-<a id="cite-inventory"></a>[1] T. Beale et al.: How to create a data inventory <https://doi.org/10.21955/gatesopenres.1114885.1>
-
-***
-***REMEMBER***
-A data inventory makes your data more accessible. It consists of metadata that documents important properties of each file.
-***
-
-### Consider file formats
-
-When publishing your data, it is important that fellow researchers can actually view it. The best course of action to achieve this is to use *open* file formats or file formats that are widely adopted to the point of being a standard.
-
-For images, this is usually pretty easy, as the most commonly used formats like JPEG and PNG are already open standards. Video codecs sometimes aren't open but will still be recognized by commonly available programs.
-
-When sharing datasets though, this may be a bit more complicated. Consider the following scenario: You are using a program that your institution bought an expensive license for to edit your data. The program offers a proprietary file format to store the data. However, a fellow researcher may not have the means to buy a license for the program. The version you are using may also become outdated and no longer available. Due to the proprietary nature of the file format, the researcher cannot view the data in any other way.
-
-In order to prevent this, *convert* your datafiles to an open format after you finished working on them. If no suitable format exists, create your own format but remember to document it properly so that other researchers know how to read or open it.
-
-Also, don't reinvent the wheel: Chances are, a file format capable of storing your data already exists. Use it instead of creating your own.
-
-![](https://imgs.xkcd.com/comics/standards.png)
-
-*If there is no way around storing the data in a proprietary format, document the programs and **versions** used to access the data. When legally possible, you can also supply a build of the software you used along with the data.*
-
-***
-**REMEMBER**
-
-Use open and/or commonly supported file formats for all of your data. Document any custom file formats.
-***
-
-### File naming
-
-* Develop a naming scheme right at the beginning of your project. Stay consistent, if you change your naming scheme, adapt the changes everywhere, even old files.
-* Formatting:
-  * Avoid spaces.
-  * Seperate words by using underscores or use CamelCase.
-  * Very long names are problematic for certain software, so avoid.
-  * Use leading zeros for sequential numbering.
-* Include date in sensible format.
-* Use some organisational elements for fast identification such as short name of location.
-
-![Example for bad practice](https://imgs.xkcd.com/comics/documents.png "An example for very bad practice https://xkcd.com/1459/")
 
 ### Versioning
 
