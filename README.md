@@ -22,7 +22,6 @@ Tipp-Boxen sollten jetzt so angelegt werden, damit das CSS funktioniert:
 
 ```
 <div class="tip">
-<b>REMEMBER</b><br><br>
 A data inventory makes your data more accessible. It is a complete record of all files and their metadata
 </div>
 ```
@@ -73,7 +72,6 @@ Compiling the metadata for your data inventory can be done in different ways dep
 <a id="cite-beale-inventory"></a>[2] T. Beale et al.: How to create a data inventory <https://doi.org/10.21955/gatesopenres.1114885.1>
 
 <div class="tip">
-<b>REMEMBER</b><br><br>
 A data inventory makes your data more accessible. It is a complete record of all files and their metadata
 </div>
 
@@ -93,7 +91,6 @@ Also, do not reinvent the wheel: Chances are, a file format capable of storing y
 
 
 <div class="tip">
-<b>REMEMBER</b><br><br>
 Use open and/or commonly supported file formats for all of your data. Document any custom file formats.
 </div>
 
@@ -115,7 +112,6 @@ Compare to [[1]](#file-naming1),[[2]](#file-naming2),[[3]](#file-naming3).
 https://xkcd.com/1459/
 
 <div class="tip">
-<b>REMEMBER</b><br><br>
 Use a single consistent naming scheme. Be aware of name formatting to keep your file names machine readable.
 </div>
 
@@ -143,7 +139,6 @@ When citing, try to stick to a consistent citation style. Check with people in y
 It is also a good idea to make sure that your sources stay accessible long after publication. Including a [DOI](#persistent identifiers), when available, will guarantee permanent access to the cited resource. Otherwise, using web archive sites to capture persistent "snapshots" of webpages can also be an option. Popular providers are [archive.today](http://archive.today) as well as [Wayback Machine](https://web.archive.org/save). The generated links can then be included with your citations.
 
 <div class="tip">
-<b>REMEMBER</b><br><br>
 Cite all your sources consistently and permanently.
 </div>
 
