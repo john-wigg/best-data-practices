@@ -64,12 +64,8 @@ Compiling the metadata for your data inventory can be done in different ways dep
 <a id="cite-beale-inventory"></a>[2] T. Beale et al.: How to create a data inventory <https://doi.org/10.21955/gatesopenres.1114885.1>
 
 <div class="tip">
-***
-
-**REMEMBER**
+<b>REMEMBER</b><br>
 A data inventory makes your data more accessible. It is a complete record of all files and their metadata
-
-***
 </div>
 
 ### Consider file formats
