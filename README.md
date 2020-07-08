@@ -70,7 +70,7 @@ Compiling the metadata for your data inventory can be done in different ways dep
 A data inventory makes your data more accessible. It is a complete record of all files and their metadata
 
 ***
-</tip>
+</div>
 
 ### Consider file formats
 
