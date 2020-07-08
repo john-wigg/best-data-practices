@@ -103,8 +103,11 @@ Also, observe some guidelines on formatting your file names so as to achieve goo
   * Use leading zeros for sequential numbering.
   
 It is also a good idea to include the date in sensible format or use some organisational elements for fast identification such as short names for locations.
+Compare to [[1]](#file-naming1),[[2]](#file-naming2),[[3]](#file-naming3).
 
 ![Example for bad practice](https://imgs.xkcd.com/comics/documents.png "An example for very bad practice https://xkcd.com/1459/")
+https://xkcd.com/1459/
+
 
 ***
 
@@ -113,6 +116,9 @@ It is also a good idea to include the date in sensible format or use some organi
 Use a single consistent naming scheme. Be aware of name formatting to keep your file names machine readable.
 
 ***
+<a id="file-naming1"></a>[1] <https://managing-qualitative-data.org/modules/2/c/>
+<a id="file-naming2"></a>[2] <https://www.researchgate.net/publication/270061735_Nine_simple_ways_to_make_it_easier_to_reuse_your_data>
+<a id="file-naming3"></a>[3] <https://library.stanford.edu/research/data-management-services/data-best-practices>
 
 ## Provenance
 You and others should know where your data came from. It is very important to document everything that happened to your data starting from the beginning. Who generated your data? How was it collected? Which software did you use to process and how did you process it? Is it all your own work or did you reuse already published data... These questions and more should be answered as part of your datas provenance [[1]](#cite-fair-provenance-1).
