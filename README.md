@@ -41,7 +41,7 @@ Die Text zitiert eine Quelle [[1]](#cite-example).
 This is the most important of the following points:
 Use a metadata standard. 
 Most points following should already be covered by your chosen standard, so it is a very good idea to pick a standard an then stick to it.
-The standard itself should be easily accessible and widely known, at least in your field. If this is not possible, make sure to preserve the scheme itself and its documentation along with your data and metadata.
+The standard itself should be easily accessible and widely known, at least in your field. If this is not possible, make sure to preserve the scheme itself and its documentation along with your data and metadata [3].
 
 ### Title
 Enter the name of the dataset or the project that produced it. If you choose to name the dataset according to the data, be as specific as possible.  Do not use special characters, underscore and hyphen are okay though. Other than that, the format is freely choosable.
