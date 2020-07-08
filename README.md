@@ -143,8 +143,8 @@ Cite all your sources consistently and permanently.
 
 
 ### Use Provenance Tools
-There are many tools, that can help you in capturing your datas provenance. [ProvBook](https://github.com/Sheeba-Samuel/ProvBook) for example, captures the provenance of Jupyter Notebook executions and is also helpful in analyzing differences of several runs. Another option is [noWorkflow] (https://github.com/gems-uff/noworkflow) which is aimed at capturing provenance of python scripts.
-Another option are Scientific Workflow Management Systems (SwfMS). With them you can compose and execute workflows. Examples you could try are [VisTrails] (https://www.vistrails.org) or [Parsl](http://parsl-project.org/).
+There are many tools, that can help you in capturing your datas provenance. [ProvBook](https://github.com/Sheeba-Samuel/ProvBook) for example, captures the provenance of Jupyter Notebook executions and is also helpful in analyzing differences of several runs. Another option is [noWorkflow](https://github.com/gems-uff/noworkflow) which is aimed at capturing provenance of python scripts.
+Another option are Scientific Workflow Management Systems (SwfMS). With them you can compose and execute workflows. Examples you could try are [VisTrails](https://www.vistrails.org) or [Parsl](http://parsl-project.org/).
 
 ### Date and date type
 When dates are involved it is important to name the format related to the date. Otherwise it is not clear how to process the data. Most meta data standards desribe the selectable options quit well, for example DataCite accepts all date formats defined by the [World Wide Web Consortium](https://www.w3.org/) (W3C). Other standards may encourage you to use ISO 8601.
