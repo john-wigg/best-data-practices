@@ -36,5 +36,6 @@ input[type="checkbox"]:checked+label::before {
 .tip:before {
   color: salmon;
   font-weight: bold;
-  content: "REMEMBER";
+  content: "REMEMBER<br>";
+  padding-bottom: 5px;
 }
