@@ -63,7 +63,7 @@ Compiling the metadata for your data inventory can be done in different ways dep
 
 ***
 
-***REMEMBER***
+**REMEMBER**
 A data inventory makes your data more accessible. It is a complete record of all files and their metadata
 
 ***
@@ -102,6 +102,14 @@ Use open and/or commonly supported file formats for all of your data. Document a
 * Use some organisational elements for fast identification such as short name of location.
 
 ![Example for bad practice](https://imgs.xkcd.com/comics/documents.png "An example for very bad practice https://xkcd.com/1459/")
+
+***
+
+**REMEMBER**
+
+Use a single consistent naming scheme. Be aware of name formatting to keep your file names machine readable.
+
+***
 
 ### Date and date type
 When dates are involved it is important to name the format related to the date. Otherwise it is not clear how to process the data. Most meta data standards desribe the selectable options quit well, for example DataCite accepts all date formats defined by the [World Wide Web Consortium](https://www.w3.org/) (W3C). Other standards may encourage you to use ISO 8601.
