@@ -26,7 +26,6 @@ Die Text zitiert eine Quelle [[1]](#cite-example).
     - [ ] [Consider file formats](#consider-file-formats)
     - [ ] [Use a file naming scheme](#use-a-file-naming-scheme)
 - [ ] [Cite your sources](#cite-your-sources)
-- [ ] [Choose a license](#choose-a-license)
 - [ ] [Create a data inventory](#create-a-data-inventory)
 - [ ] [Consider file formats](#consider-file-formats)
 - [ ] [File naming](#file-naming)  
@@ -34,6 +33,7 @@ Die Text zitiert eine Quelle [[1]](#cite-example).
 - [ ] [Keeping track of processing](#keeping-track-of-processing)  
 - [ ] [README](#readme)  
 - [ ] [Persistent identifier](#persistent-identifier)
+- [ ] [Choose a license](#choose-a-license)
 
 ### Metadata standard
 This is the most important of the following points:
@@ -142,27 +142,6 @@ Cite all your sources consistently and permanently.
 
 <a id="cite-fair-provenance-1"></a>[1] <https://www.go-fair.org/fair-principles/r1-2-metadata-associated-detailed-provenance/>
 
-
-### Choose a license
-
-When opening your project or data to the public, it is important to choose a license. This does not only apply to software projects but really to all kinds of data as well. Without a license, colleagues viewing your publication won't know what they are allowed to with your data and what they aren't.
-
-If publishing in a journals, there may by restrictions on what licenses you are allowed to use so make sure to check with your publisher first.
-
-Licensing may also be a factor when applying the FAIR data principles: To meet the R (Reusable) criteria your *(Meta)data are released with a clear and accessible data usage license* [[1]](#cite-fair-license). The protocol you are using should also be *open, free and universally implementable* so make sure you read the licenses of any component you are using as well. Licensing also makes sure that researcher re-using your data know how to cite you, an important aspect of data provenance in FAIR data [[2]](#cite-fair-provenance-2).
-
-There are good resources to learn about and choose the correct license for your publication https://choosealicense.com/.
-
-A very popular choice are the *Creative Commons* licenses (https://creativecommons.org/licenses/). They allow control of what can be done with your data.
-
-If you are working on a software project, the MIT license is a very clear permissive license. The GNU General Public License is also a very popular choice amongst open-source software projects.
- 
-***
-**REMEMBER**
-
-Add a license to your data to tell other researchers what they are allowed to with your data!
-***
-
 ### Versioning
 
 If you can, use a version control software like [git](https://git-scm.com/). 
@@ -192,3 +171,25 @@ Keep a README or something similar in your file folders to give other users of y
 
 Use a persistent Digital identifier for your project (DOI) as well as for yourself (e.g. [ORCID](https://orcid.org/)).
 They will help your project in staying findable, accesible and connected to you.
+
+### Choose a license
+
+When opening your project or data to the public, it is important to choose a license. This does not only apply to software projects but really to all kinds of data as well. Without a license, colleagues viewing your publication won't know what they are allowed to with your data and what they aren't.
+
+If publishing in a journals, there may by restrictions on what licenses you are allowed to use so make sure to check with your publisher first.
+
+Licensing may also be a factor when applying the FAIR data principles: To meet the R (Reusable) criteria your *(Meta)data are released with a clear and accessible data usage license* [[1]](#cite-fair-license). The protocol you are using should also be *open, free and universally implementable* so make sure you read the licenses of any component you are using as well. Licensing also makes sure that researcher re-using your data know how to cite you, an important aspect of data provenance in FAIR data [[2]](#cite-fair-provenance-2).
+
+There are good resources to learn about and choose the correct license for your publication https://choosealicense.com/.
+
+A very popular choice are the *Creative Commons* licenses (https://creativecommons.org/licenses/). They allow control of what can be done with your data.
+
+If you are working on a software project, the MIT license is a very clear permissive license. The GNU General Public License is also a very popular choice amongst open-source software projects.
+ 
+***
+
+**REMEMBER**
+
+Add a license to your data to tell other researchers what they are allowed to with your data!
+
+***
