@@ -18,6 +18,15 @@ Die Text zitiert eine Quelle [[1]](#cite-example).
 
 <a id="cite-example"></a>[1] <https://github.com/john-wigg/best-data-practices>
 
+Tipp-Boxen sollten jetzt so angelegt werden, damit das CSS funktioniert:
+
+```
+<div class="tip">
+<b>REMEMBER</b><br><br>
+A data inventory makes your data more accessible. It is a complete record of all files and their metadata
+</div>
+```
+
 ## Checklist
 
 - [ ] [Metadata standard](#metadata-standard)
@@ -64,7 +73,7 @@ Compiling the metadata for your data inventory can be done in different ways dep
 <a id="cite-beale-inventory"></a>[2] T. Beale et al.: How to create a data inventory <https://doi.org/10.21955/gatesopenres.1114885.1>
 
 <div class="tip">
-<b>REMEMBER</b><br>
+<b>REMEMBER</b><br><br>
 A data inventory makes your data more accessible. It is a complete record of all files and their metadata
 </div>
 
@@ -82,13 +91,12 @@ Also, do not reinvent the wheel: Chances are, a file format capable of storing y
 
 *If there is no way around storing the data in a proprietary format, document the programs and **versions** used to access the data (see also [provenance](#provenance)). When legally possible, you can also supply a build of the software you used along with the data.*
 
-***
 
-**REMEMBER**
-
+<div class="tip">
+<b>REMEMBER</b><br><br>
 Use open and/or commonly supported file formats for all of your data. Document any custom file formats.
+</div>
 
-***
 
 ### Use a file naming scheme
 
@@ -106,14 +114,11 @@ Compare to [[1]](#file-naming1),[[2]](#file-naming2),[[3]](#file-naming3).
 ![Example for bad practice](https://imgs.xkcd.com/comics/documents.png "An example for very bad practice https://xkcd.com/1459/")
 https://xkcd.com/1459/
 
-
-***
-
-**REMEMBER**
-
+<div class="tip">
+<b>REMEMBER</b><br><br>
 Use a single consistent naming scheme. Be aware of name formatting to keep your file names machine readable.
+</div>
 
-***
 <a id="file-naming1"></a>[1] <https://managing-qualitative-data.org/modules/2/c/>
 <a id="file-naming2"></a>[2] <https://www.researchgate.net/publication/270061735_Nine_simple_ways_to_make_it_easier_to_reuse_your_data>
 <a id="file-naming3"></a>[3] <https://library.stanford.edu/research/data-management-services/data-best-practices>
@@ -136,12 +141,11 @@ As part of data provenance, researchers need to be able to know from where your 
 Citing your sources may also be a legal requirement, depending on the license of the work you are citing.
 When citing, try to stick to a consistent citation style. Check with people in your field which style to use but use it consistently.
 It is also a good idea to make sure that your sources stay accessible long after publication. Including a [DOI](#persistent identifiers), when available, will guarantee permanent access to the cited resource. Otherwise, using web archive sites to capture persistent "snapshots" of webpages can also be an option. Popular providers are [archive.today](http://archive.today) as well as [Wayback Machine](https://web.archive.org/save). The generated links can then be included with your citations.
-***
-**REMEMBER**
 
+<div class="tip">
+<b>REMEMBER</b><br><br>
 Cite all your sources consistently and permanently.
-***
-
+</div>
 
 <a id="cite-fair-provenance-1"></a>[1] <https://www.go-fair.org/fair-principles/r1-2-metadata-associated-detailed-provenance/>
 
@@ -191,11 +195,8 @@ There are good resources to learn about and choose the correct license for your 
 A very popular choice are the *Creative Commons* licenses (https://creativecommons.org/licenses/). They allow control of what can be done with your data.
 
 If you are working on a software project, the MIT license is a very clear permissive license. The GNU General Public License is also a very popular choice amongst open-source software projects.
- 
-***
 
-**REMEMBER**
-
+<div class="tip">
+<b>REMEMBER</b><br><br>
 Add a license to your data to tell other researchers what they are allowed to with your data!
-
-***
+</div>
