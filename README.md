@@ -63,12 +63,14 @@ Compiling the metadata for your data inventory can be done in different ways dep
 <a id="cite-hopkins-inventory"></a>[1] John Hopkins University - Center for Government Excellence <https://labs.centerforgov.org/data-governance/data-inventory/><br>
 <a id="cite-beale-inventory"></a>[2] T. Beale et al.: How to create a data inventory <https://doi.org/10.21955/gatesopenres.1114885.1>
 
+<div class="tip">
 ***
 
 **REMEMBER**
 A data inventory makes your data more accessible. It is a complete record of all files and their metadata
 
 ***
+</tip>
 
 ### Consider file formats
 
