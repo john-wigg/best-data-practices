@@ -28,7 +28,7 @@ Die Text zitiert eine Quelle [[1]](#cite-example).
 - [ ] [Provenance](#provenance)
     - [ ] [Keep track of processing](#keep-track-of-processing)
     - [ ] [Version your data](#version-your-data)
-    - [ ] [Cite your sources)(#cite-your-sources)
+    - [ ] [Cite your sources](#cite-your-sources)
     - [ ] [Use provenance tools](#use-provenance-tools)
 - [ ] [Create a data inventory](#create-a-data-inventory)
 - [ ] [Consider file formats](#consider-file-formats)
@@ -113,7 +113,7 @@ Use a single consistent naming scheme. Be aware of name formatting to keep your 
 
 ***
 
-##Provenance
+## Provenance
 You and others should know where your data came from. It is very important to document everything that happened to your data starting from the beginning. Who generated your data? How was it collected? Which software did you use to process and how did you process it? Is it all your own work or did you reuse already published data... These questions and more should be answered as part of your datas provenance [[1]](#cite-fair-provenance-1).
 
 ### Keep track of processing
