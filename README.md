@@ -37,6 +37,33 @@ Use a metadata standard.
 Most points following should already be covered by your chosen standard, so it is a very good idea to pick a standard an then stick to it.
 The standard itself should be easily accessible and widely known, at least in your field. If this is not possible, make sure to preserve the scheme itself and its documentation along with your data and metadata.
 
+### Title
+Enter the name of the dataset or the project that produced it. If you choose to name the dataset according to the data, be as specific as possible.  Do not use special characters, underscore and hyphen are okay though. Other than that, the format is freely choosable.
+
+### Creator 
+Enter the Names of the researchers, that are mainly involved in creating the dataset, or the authors of the publication in order of priority.
+One good practices concerning names in general is transcribing names in Latin script, when coming from another writing system. ALA-LC (American Library Association - Library of Congress) is a set of standards for romanization, that can help you with this topic. For further information, see [ALA-LC](https://www.loc.gov/catdir/cpso/roman.html).
+
+### Date and date type
+When dates are involved it is important to name the format related to the date. Otherwise it is not clear how to process the data. Most meta data standards desribe the selectable options quit well, for example DataCite accepts all date formats defined by the [World Wide Web Consortium](https://www.w3.org/) (W3C). Other standards may encourage you to use ISO 8601.
+
+Key dates associated with the data, including:
+* project start and end date,
+* release date,
+* ime period covered by the data, 
+* and other dates associated with the data lifespan (maintenance cycle, update schedule, etc.).
+
+![ISO 8601](https://imgs.xkcd.com/comics/iso_8601.png "ISO 8601 https://xkcd.com/1179/")
+
+### Persistent identifier
+Include a persistent identifier. Persistent identifiers (PIDs) are used when citing and managing datasets and information. PIDs identify citable online resources, such as datasets or publications, by providing a permanent link to them. Even if the datasets location in the internet changes, the identifier remains the same and will still link to the data, regardless of the new location. Some examples of commonly used persistent identifiers are Digital Object Identifier (DOI) and Uniform Resource Name (URN). But keep in mind, PID is always a promise that the underlying data will never change. If it's necessary to make changes use a new PID and refer to the original dataset.
+
+### Methode
+Add informations about your pipeline for creating this dataset and be as specific as possible. This information can consists of formulae, algorithm, experimental protocols or other things one might include in a lab notebook. When describing your used Software include the enviorment, where this software was running on and the version number of the software and operating system. Same for your hardware or equipment in general, add model and version numbers. This will help to re-create your pipeline if necessary.
+
+### Funder
+Add the name of the funding organization or institution. Most organization have policies for this, so ask your mentor or supervisor if you're not aware of those.
+
 ### Cite your sources
 
 As part of data provenance, researchers need to be able to know from where your data comes. This includes giving information on from where you sourced pre-existing data. [[1]](#cite-fair-provenance-1)
