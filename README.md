@@ -25,12 +25,14 @@ Die Text zitiert eine Quelle [[1]](#cite-example).
     - [ ] [Create a data inventory](#create-a-data-inventory)
     - [ ] [Consider file formats](#consider-file-formats)
     - [ ] [Use a file naming scheme](#use-a-file-naming-scheme)
-- [ ] [Cite your sources](#cite-your-sources)
+- [ ] [Provenance](#provenance)
+    - [ ] [Keep track of processing](#keep-track-of-processing)
+    - [ ] [Version your data](#version-your-data)
+    - [ ] [Cite your sources)(#cite-your-sources)
+    - [ ] [Use provenance tools](#use-provenance-tools)
 - [ ] [Create a data inventory](#create-a-data-inventory)
 - [ ] [Consider file formats](#consider-file-formats)
-- [ ] [File naming](#file-naming)  
-- [ ] [Versioning](#versioning)  
-- [ ] [Keeping track of processing](#keeping-track-of-processing)  
+- [ ] [File naming](#file-naming)   
 - [ ] [README](#readme)  
 - [ ] [Persistent identifier](#persistent-identifier)
 - [ ] [Choose a license](#choose-a-license)
@@ -111,6 +113,38 @@ Use a single consistent naming scheme. Be aware of name formatting to keep your 
 
 ***
 
+##Provenance
+You and others should know where your data came from. It is very important to document everything that happened to your data starting from the beginning. Who generated your data? How was it collected? Which software did you use to process and how did you process it? Is it all your own work or did you reuse already published data... These questions and more should be answered as part of your datas provenance [[1]](#cite-fair-provenance-1).
+
+### Keep track of processing
+It is very important to keep track of all the steps used to process raw data.
+You should add information about your pipeline for creating this dataset and be as specific as possible. This information can consists of formulae, algorithm, experimental protocols or other things one might include in a lab notebook. Instead of just writing everything down, you could also use scripts that do all the necessary changes for you. This is especially useful if you need to process lots of similar data.
+You might also consider using data-cleaning tools such as [OpenRefine](https://openrefine.org/), which will, amongst other things, automatically keep track of your changes. 
+Another option are electronic lab notebooks (ELN) such as the open source tool [eLabFTW] (https://www.elabftw.net/).
+If neither of this options suits you, you could write log messages or keep track of the changes in a README. Make sure to use [version control](#versioning), especially for files that you edit manually. When describing the software you used, include the environment, where this software was running on and the version number of the software and operating system. Same for your hardware or equipment in general, add model and version numbers. This will help to re-create your pipeline if necessary.
+
+### Version your data
+As already mentioned in [Keeping track of processing] (#keeping-track-of-processing) it is very important to know where your data came from. If you change anything in your project,  make sure to include version numbers and always keep the information about what changes you made. If you can, use a version control software like [git](https://git-scm.com/), it will almost always make your life easier. There are some things that should not be put under version control though. Binary files, large data files or results and your raw data. Your should always keep a copy of your raw data and leave it exactly in that state!
+
+### Cite your sources
+As part of data provenance, researchers need to be able to know from where your data comes. This includes giving information on from where you sourced pre-existing data. [[1]](#cite-fair-provenance-1)
+Citing your sources may also be a legal requirement, depending on the license of the work you are citing.
+When citing, try to stick to a consistent citation style. Check with people in your field which style to use but use it consistently.
+It is also a good idea to make sure that your sources stay accessible long after publication. Including a [DOI](#persistent identifiers), when available, will guarantee permanent access to the cited resource. Otherwise, using web archive sites to capture persistent "snapshots" of webpages can also be an option. Popular providers are [archive.today](http://archive.today) as well as [Wayback Machine](https://web.archive.org/save). The generated links can then be included with your citations.
+***
+**REMEMBER**
+
+Cite all your sources consistently and permanently.
+***
+
+
+<a id="cite-fair-provenance-1"></a>[1] <https://www.go-fair.org/fair-principles/r1-2-metadata-associated-detailed-provenance/>
+
+
+### Use Provenance Tools
+There are many tools, that can help you in capturing your datas provenance. [ProvBook](https://github.com/Sheeba-Samuel/ProvBook) for example, captures the provenance of Jupyter Notebook executions and is also helpful in analyzing differences of several runs. Another option is [noWorkflow] (https://github.com/gems-uff/noworkflow) which is aimed at capturing provenance of python scripts.
+Another option are Scientific Workflow Management Systems (SwfMS). With them you can compose and execute workflows. Examples you could try are [VisTrails] (https://www.vistrails.org) or [Parsl](http://parsl-project.org/).
+
 ### Date and date type
 When dates are involved it is important to name the format related to the date. Otherwise it is not clear how to process the data. Most meta data standards desribe the selectable options quit well, for example DataCite accepts all date formats defined by the [World Wide Web Consortium](https://www.w3.org/) (W3C). Other standards may encourage you to use ISO 8601.
 
@@ -125,45 +159,8 @@ Key dates associated with the data, including:
 ### Persistent identifier
 Include a persistent identifier. Persistent identifiers (PIDs) are used when citing and managing datasets and information. PIDs identify citable online resources, such as datasets or publications, by providing a permanent link to them. Even if the datasets location in the internet changes, the identifier remains the same and will still link to the data, regardless of the new location. Some examples of commonly used persistent identifiers are Digital Object Identifier (DOI) and Uniform Resource Name (URN). But keep in mind, PID is always a promise that the underlying data will never change. If it's necessary to make changes use a new PID and refer to the original dataset.
 
-### Methode
-Add informations about your pipeline for creating this dataset and be as specific as possible. This information can consists of formulae, algorithm, experimental protocols or other things one might include in a lab notebook. When describing your used Software include the enviorment, where this software was running on and the version number of the software and operating system. Same for your hardware or equipment in general, add model and version numbers. This will help to re-create your pipeline if necessary.
-
 ### Funder
 Add the name of the funding organization or institution. Most organization have policies for this, so ask your mentor or supervisor if you're not aware of those.
-
-### Cite your sources
-
-As part of data provenance, researchers need to be able to know from where your data comes. This includes giving information on from where you sourced pre-existing data. [[1]](#cite-fair-provenance-1)
-
-Citing your sources may also be a legal requirement, depending on the license of the work you are citing.
-
-When citing, try to stick to a consistent citation style. Check with people in your field which style to use but use it consistently.
-
-It is also a good idea to make sure that your sources stay accessible long after publication. *Digital Object Identifiers* (DOI, https://www.doi.org/) are persistent identifiers for all kinds of objects such as papers and data sets. Including a DOI, when available, will guarantee permanent access to the cited resource. Otherwise, using web archive sites to capture persistent "snapshots" of webpages can also be an option. Popular providers are [arhive.today](http://archive.today) as well as [Wayback Machine](https://web.archive.org/save). The generated links can then be included with your citations.
-
-***
-**REMEMBER**
-
-Cite all your sources consistently and permanently.
-***
-
-
-<a id="cite-fair-provenance-1"></a>[1] <https://www.go-fair.org/fair-principles/r1-2-metadata-associated-detailed-provenance/>
-
-### Versioning
-
-If you can, use a version control software like [git](https://git-scm.com/). 
-Else, make sure to include version numbers and always keep the information about what changes you made, see also in the [following section](#keeping-track-of-processing).
-Things not to put under version control (if you use it):
-* Binary files
-* Raw data (this should always stay the same!)
-* Large data files or results
-
-
-### Keeping track of processing
-It is very important to keep track of all the steps used to process raw data. You can go the easy (and also very good) way of using data-cleaning tools such as [OpenRefine](https://openrefine.org/). It will automatically keep track of your changes and has some other cool features.
-Another option is writing a script that does all the necessary changes for you. This is also useful if you get more new data which needs to be processsed the same way as the old.
-If neither of this options suits you, you could write log messages or keep track of the changes in a README. Make sure to use [version control](#versioning), especially for files that you edit manually. 
 
 ### README
 
