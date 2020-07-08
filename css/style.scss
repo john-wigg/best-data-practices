@@ -1,7 +1,7 @@
 ---
 ---
 
-@import "minima/skins/{{ site.minima.skin | default: 'classic' }}";
+@import "minima/skins/classis.scss";
 @import "minima/initialize";
 
 // my custom CSS rules that override Minima's rules here
