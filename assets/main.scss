@@ -37,5 +37,6 @@ input[type="checkbox"]:checked+label::before {
   color: salmon;
   font-weight: bold;
   content: "REMEMBER\a";
+  white-space: pre;
   padding-bottom: 5px;
 }
