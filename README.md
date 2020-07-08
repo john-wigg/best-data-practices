@@ -178,7 +178,7 @@ Keep a README or something similar in your file folders to give other users of y
 
 ### Include persistent identifiers
 Persistent identifiers (PIDs) are used when citing and managing datasets and information. PIDs can be used in many cases. You could use one for your whole project, as PIDs can identify citable online resources, such as datasets or publications, by providing a permanent link to them. Even if the datasets location in the internet changes, the identifier remains the same and will still link to the data, regardless of the new location. Some examples of commonly used persistent identifiers are Digital Object Identifier (DOI) and Uniform Resource Name (URN). But keep in mind, PID is always a promise that the underlying data will never change. If it's necessary to make changes use a new PID and refer to the original dataset.
-There are also persistent identifiers for people such as [ORCID](https://orcid.org/). Sometimes people change their names, move to a different location etc.. A persistent identifier will stay the same nonetheless, so it is also a good idea to mention PIDs of the people that worked on the project. Another type of persistent identifier can be used for identifying the files in your project.
+There are also persistent identifiers for people such as [ORCID](https://orcid.org/). Sometimes people change their names, move to a different location etc.. A persistent identifier will stay the same nonetheless, so it is also a good idea to mention PIDs of the people that worked on the project.
 
 ### Choose a license
 
