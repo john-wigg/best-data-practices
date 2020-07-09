@@ -145,11 +145,11 @@ Use a single consistent naming scheme. Be aware of name formatting to keep your 
 </div>
 
 ## Provenance
-You and others should know where your data came from. It is very important to document everything that happened to your data starting from the beginning. Who generated your data? How was it collected? Which software did you use to process and how did you process it? Is it all your own work or did you reuse already published data... These questions and more should be answered as part of your datas provenance [[6]](#cite-fair-provenance-1).
+You and others should know where your data came from. It is very important to document everything that happened to your data starting from the beginning. Who generated your data? How was it collected? Which software did you use to process and how did you process it? Is it all your own work or did you reuse already published data... These questions and more should be answered as part of your data's provenance [[6]](#cite-fair-provenance-1).
 
 ### Keep track of processing
 It is very important to keep track of all the steps used to process raw data.
-You should add information about your pipeline for creating this dataset and be as specific as possible. This information can consist of formulae, algorithm, experimental protocols or other things one might include in a lab notebook. Instead of just writing everything down, you could also use scripts that do all the necessary changes for you. This is especially useful if you need to process lots of similar data.
+You should add information about the pipeline used to create your dataset and be as specific as possible. This information can consist of formulae, algorithm, experimental protocols or other things one might include in a lab notebook. Instead of just writing everything down, you could also use scripts that do all the necessary changes for you. This is especially useful if you need to process lots of similar data.
 You might also consider using data-cleaning tools such as [OpenRefine](https://openrefine.org/), which will, amongst other things, automatically keep track of your changes. 
 Another option are electronic lab notebooks (ELN) such as the open source tool [eLabFTW](https://www.elabftw.net/).
 If neither of this options suits you, you could write log messages or keep track of the changes in a README. Make sure to use [version control](#version-your-data), especially for files that you edit manually. When describing the software you used, include the environment, where this software was running on and the version number of the software and operating system. Same for your hardware or equipment in general, add model and version numbers. This will help to re-create your pipeline if necessary.
@@ -168,7 +168,7 @@ Cite all your sources consistently and permanently.
 </div>
 
 ### Use Provenance Tools
-There are many tools, that can help you in capturing your datas provenance. [ProvBook](https://github.com/Sheeba-Samuel/ProvBook) for example, captures the provenance of Jupyter Notebook executions and is also helpful in analysing differences of several runs. Another option is [noWorkflow](https://github.com/gems-uff/noworkflow) which is aimed at capturing provenance of python scripts.
+There are many tools, that can help you in capturing your data's provenance. [ProvBook](https://github.com/Sheeba-Samuel/ProvBook) for example, captures the provenance of Jupyter Notebook executions and is also helpful in analysing differences of several runs. Another option is [noWorkflow](https://github.com/gems-uff/noworkflow) which is aimed at capturing provenance of python scripts.
 Another option are Scientific Workflow Management Systems (SwfMS). With them you can compose and execute workflows. Examples you could try are [VisTrails](https://www.vistrails.org) or [Parsl](http://parsl-project.org/).
 
 ## Include persistent identifiers
@@ -177,17 +177,17 @@ There are also persistent identifiers for people such as [ORCID](https://orcid.o
 
 ## Choose a license
 
-When opening your project or data to the public, it is important to choose a license. This does not only apply to software projects but really to all kinds of data as well. Without a license, colleagues viewing your publication won't know what they are allowed to with your data and what they aren't.
+When opening your project or data to the public, it is important to choose a license. This does not only apply to software projects but really to all kinds of data as well. Without a license, colleagues viewing your publication will not know what they are allowed to with your data and what they are not.
 
 If publishing in a journals, there may by restrictions on what licenses you are allowed to use so make sure to check with your publisher first.
 
-Licensing may also be a factor when applying the FAIR data principles: To meet the R (Reusable) criteria your *(Meta)data are released with a clear and accessible data usage license*. The protocol you are using should also be *open, free and universally implementable* so make sure you read the licenses of any component you are using as well. Licensing also makes sure that researcher re-using your data know how to cite you, an important aspect of data provenance in FAIR data [[7]](#cite-fair-provenance-2).
-
-There are good resources to learn about and choose the correct license for your publication https://choosealicense.com/.
+Licensing may also be a factor when applying the FAIR data principles: To meet the R (Reusable) criteria your (meta)data have to be *released with a clear and accessible data usage license*. The protocol you are using should also be *open, free and universally implementable* so make sure you read the licenses of any component you are using as well. Licensing also makes sure that researchers re-using your data know how to cite you, an important aspect of data provenance in FAIR data [[7]](#cite-fair-provenance-2).
 
 A very popular choice are the *Creative Commons* licenses (https://creativecommons.org/licenses/). They allow control of what can be done with your data.
 
 If you are working on a software project, the MIT license is a very clear permissive license. The GNU General Public License is also a very popular choice amongst open-source software projects.
+
+If you are still unsure, there are good resources to learn about and choose the correct license for your publication like https://choosealicense.com/.
 
 <div class="tip">
 Add a license to your data to tell other researchers what they are allowed to with your data!
