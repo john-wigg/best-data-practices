@@ -1,5 +1,8 @@
 # Documenting Data: Best Practices
 
+This checklist was created in Module: "Management of Scientific Data" and should give you an overview, how to describe your dataset and workflows, the way the future you and other researcher are able to use it. Enjoy!
+
+
 ## Checklist
 
 - [Metadata standard](#metadata-standard)
