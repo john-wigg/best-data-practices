@@ -54,10 +54,10 @@ The standard itself should be easily accessible and widely known, at least in yo
 But how to pick a metadata standard?
 There are many types of metadata standards. Some are generic like [Dublin Core](https://dublincore.org), while other are specific to a field of research. When choosing your standard, start by asking for your organization's policies. In most of the cases, they already chose a standard and encourage you to use it. In other cases the publisher specifies what standard to use. If neither your organization, nor the publisher specifies the standard, chose the standard by the field of research or the data that is available to you. For further information, see [Metadata standards overview](http://rd-alliance.github.io/metadata-directory/standards/).
 
-<div style=display:block;margin:0 auto">
-    	<img src="https://imgs.xkcd.com/comics/standards.png" alt="Standards"><br>
+ <center>
+    <img src="https://imgs.xkcd.com/comics/standards.png" alt="Standards"><br>
     <a href="https://xkcd.com/927/">https://xkcd.com/927/</a>
-</div>
+</center>
 
 ### Fill in metadata fields
 
