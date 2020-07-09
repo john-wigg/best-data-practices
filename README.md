@@ -161,7 +161,7 @@ If neither of this options suits you, you could write log messages or keep track
 As already mentioned in [the previous paragraph](#keep-track-of-processing) it is very important to know where your data came from. If you change anything in your project, make sure to include version numbers. If you can, use a version control software like [git](https://git-scm.com/), it will almost always make your life easier. There are some things that should not be put under version control though: Binary files, large data files or results and your raw data. Your should always keep a copy of your raw data and leave it exactly in that state!
 
 ### Cite your sources
-As part of data provenance, researchers need to be able to know from where your data comes. This includes giving information on from where you sourced pre-existing data. [[7]](#cite-fair-provenance-1)
+As part of data provenance, researchers need to be able to know from where your data comes. This includes giving information on from where you sourced pre-existing data. [[6]](#cite-fair-provenance-1)
 Citing your sources may also be a legal requirement, depending on the license of the work you are citing.
 When citing, try to stick to a consistent citation style. Check with people in your field which style to use but use it consistently.
 It is also a good idea to make sure that your sources stay accessible long after publication. Including a [DOI](#include-persistent-identifiers), when available, will guarantee permanent access to the cited resource. Otherwise, using web archive sites to capture persistent "snapshots" of webpages can also be an option. Popular providers are [archive.today](http://archive.today) as well as [Wayback Machine](https://web.archive.org/save). The generated links can then be included with your citations.
@@ -184,7 +184,7 @@ When opening your project or data to the public, it is important to choose a lic
 
 If publishing in a journals, there may by restrictions on what licenses you are allowed to use so make sure to check with your publisher first.
 
-Licensing may also be a factor when applying the FAIR data principles: To meet the R (Reusable) criteria your *(Meta)data are released with a clear and accessible data usage license* [[8]](#cite-fair-license). The protocol you are using should also be *open, free and universally implementable* so make sure you read the licenses of any component you are using as well. Licensing also makes sure that researcher re-using your data know how to cite you, an important aspect of data provenance in FAIR data [[9]](#cite-fair-provenance-2).
+Licensing may also be a factor when applying the FAIR data principles: To meet the R (Reusable) criteria your *(Meta)data are released with a clear and accessible data usage license*. The protocol you are using should also be *open, free and universally implementable* so make sure you read the licenses of any component you are using as well. Licensing also makes sure that researcher re-using your data know how to cite you, an important aspect of data provenance in FAIR data [[7]](#cite-fair-provenance-2).
 
 There are good resources to learn about and choose the correct license for your publication https://choosealicense.com/.
 
