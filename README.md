@@ -131,7 +131,7 @@ Also, observe some guidelines on formatting your file names so as to achieve goo
   * Very long names are problematic for certain software, so avoid.
   * Use leading zeros for sequential numbering.
   
-It is also a good idea to include the date in sensible format or use some organisational elements for fast identification such as short names for locations.
+It is also a good idea to include the date in a sensible format and to use some organisational elements for fast identification such as short names for locations.
 Compare to [[4]](#file-naming1),[[5]](#file-naming2),[[1]](#file-naming3).
 
 
@@ -158,7 +158,7 @@ If neither of this options suits you, you could write log messages or keep track
 As already mentioned in [the previous paragraph](#keep-track-of-processing) it is very important to know where your data came from. If you change anything in your project, make sure to include version numbers. If you can, use a version control software like [git](https://git-scm.com/), it will almost always make your life easier. There are some things that should not be put under version control though: Binary files, large data files or results and your raw data. Your should always keep a copy of your raw data and leave it exactly in that state!
 
 ### Cite your sources
-As part of data provenance, researchers need to be able to know from where your data comes. This includes giving information on from where you sourced pre-existing data. [[6]](#cite-fair-provenance-1)
+As part of data provenance, researchers need to be able to know where your data came from. This includes giving information where you sourced pre-existing data from. [[6]](#cite-fair-provenance-1)
 Citing your sources may also be a legal requirement, depending on the license of the work you are citing.
 When citing, try to stick to a consistent citation style. Check with people in your field which style to use but use it consistently.
 It is also a good idea to make sure that your sources stay accessible long after publication. Including a [DOI](#include-persistent-identifiers), when available, will guarantee permanent access to the cited resource. Otherwise, using web archive sites to capture persistent "snapshots" of webpages can also be an option. Popular providers are [archive.today](http://archive.today) as well as [Wayback Machine](https://web.archive.org/save). The generated links can then be included with your citations.
@@ -185,12 +185,12 @@ Licensing may also be a factor when applying the FAIR data principles: To meet t
 
 A very popular choice are the *Creative Commons* licenses (https://creativecommons.org/licenses/). They allow control of what can be done with your data.
 
-If you are working on a software project, the MIT license is a very clear permissive license. The GNU General Public License is also a very popular choice amongst open-source software projects.
+If you are working on a software project, the MIT license is a very clear, permissive license. The GNU General Public License is also a very popular choice amongst open-source software projects.
 
 If you are still unsure, there are good resources to learn about and choose the correct license for your publication like https://choosealicense.com/.
 
 <div class="tip">
-Add a license to your data to tell other researchers what they are allowed to with your data!
+Add a license to your data to tell other researchers what they are allowed to do with your data!
 </div>
 
 ## Sources
