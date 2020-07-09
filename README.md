@@ -28,20 +28,20 @@ A data inventory makes your data more accessible. It is a complete record of all
 
 ## Checklist
 
-- [ ] [Metadata standard](#metadata-standard)
-    - [ ] [Pick a metadata standard](#pick-a-metadata-standard)
-    - [ ] [Fill in metadata fields](#fill-in-metadata-fields)
-- [ ] [File management](#file-management)
-    - [ ] [Create a data inventory](#create-a-data-inventory)
-    - [ ] [Consider file formats](#consider-file-formats)
-    - [ ] [Use a file naming scheme](#use-a-file-naming-scheme)
-- [ ] [Provenance](#provenance)
-    - [ ] [Keep track of processing](#keep-track-of-processing)
-    - [ ] [Version your data](#version-your-data)
-    - [ ] [Cite your sources](#cite-your-sources)
-    - [ ] [Use provenance tools](#use-provenance-tools)
-- [ ] [Include persistent identifiers](#include-persistent-identifiers)
-- [ ] [Choose a license](#choose-a-license)
+- [Metadata standard](#metadata-standard)
+    - [Pick a metadata standard](#pick-a-metadata-standard)
+    - [Fill in metadata fields](#fill-in-metadata-fields)
+- [File management](#file-management)
+    - [Create a data inventory](#create-a-data-inventory)
+    - [Consider file formats](#consider-file-formats)
+    - [Use a file naming scheme](#use-a-file-naming-scheme)
+- [Provenance](#provenance)
+    - [Keep track of processing](#keep-track-of-processing)
+    - [Version your data](#version-your-data)
+    - [Cite your sources](#cite-your-sources)
+    - [Use provenance tools](#use-provenance-tools)
+- [Include persistent identifiers](#include-persistent-identifiers)
+- [Choose a license](#choose-a-license)
 
 ## Metadata standard
 This is the most important of the following points:
