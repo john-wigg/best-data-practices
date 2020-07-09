@@ -100,7 +100,7 @@ For small projects, a fully fleshed out data inventory may not be necessary. Ins
 Compiling the metadata for your data inventory can be done in different ways depending on the size and/or organisation of your project: You can delegate the responsibility of adding metadata to the creators or owners of each dataset, conduct surveys and interviews with them, or create an automated process that prompts data creators to add their own metadata. Make sure to adhere to any [metadata standards](#metadata-standards) you are using. Also, be careful about the information you are sharing publicly and follow privacy guidelines. [[3]](#cite-beale-inventory)
 
 <div class="tip">
-A data inventory makes your data more accessible. It is a complete record of all files and their metadata
+A data inventory makes your data more accessible. It is a complete record of all files and their metadata.
 </div>
 
 ### Consider file formats
@@ -156,12 +156,12 @@ You might also consider using data-cleaning tools such as [OpenRefine](https://o
 Another option are electronic lab notebooks (ELN) such as the open source tool [eLabFTW](https://www.elabftw.net/).
 If neither of this options suits you, you could write log messages or keep track of the changes in a README. Make sure to use [version control](#version-your-data), especially for files that you edit manually. When describing the software you used, include the environment, where this software was running on and the version number of the software and operating system. Same for your hardware or equipment in general, add model and version numbers. This will help to re-create your pipeline if necessary.
 
-<div class="tip">Add information about your pipeline, it will help.</div>
+<div class="tip">Add information about your pipeline.</div>
 
 ### Version your data
 As already mentioned in [the previous paragraph](#keep-track-of-processing) it is very important to know where your data came from. If you change anything in your project, make sure to include version numbers. If you can, use a version control software like [git](https://git-scm.com/), it will almost always make your life easier. There are some things that should not be put under version control though: Binary files, large data files or results and your raw data. Your should always keep a copy of your raw data and leave it exactly in that state!
 
-<div class="tip">Use version controll it will help you manage your files.</div>
+<div class="tip">Use version control, it will help you manage your files.</div>
 
 ### Cite your sources
 As part of data provenance, researchers need to be able to know where your data came from. This includes giving information where you sourced pre-existing data from. [[6]](#cite-fair-provenance-1)
@@ -183,7 +183,7 @@ Another option are Scientific Workflow Management Systems (SwfMS). With them you
 Persistent identifiers (PIDs) are used when citing and managing datasets and information. PIDs can be used in many cases. You could use one for your whole project, as PIDs can identify citable online resources, such as datasets or publications, by providing a permanent link to them. Even if the datasets location in the internet changes, the identifier remains the same and will still link to the data, regardless of the new location. Some examples of commonly used persistent identifiers are Digital Object Identifier (DOI) and Uniform Resource Name (URN). But keep in mind, PID is always a promise that the underlying data will never change. If it's necessary to make changes use a new PID and refer to the original dataset.
 There are also persistent identifiers for people such as [ORCID](https://orcid.org/). Sometimes people change their names, move to a different location etc.. A persistent identifier will stay the same nonetheless, so it is also a good idea to mention PIDs of the people that worked on the project.
 
-<div class="tip">Use persistent identifier wherever you can.</div>
+<div class="tip">Use persistent identifiers wherever you can.</div>
 
 ## Choose a license
 
