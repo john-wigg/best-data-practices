@@ -1,3 +1,13 @@
+# Site settings
+title: Documenting Data: Best Practices
+email: john.wigg@uni-jena.de, anna.sterzik@uni-jena.de, sebastian.ebert@uni-jena.de
+description: >- # this means to ignore newlines until "baseurl:"
+  This checklist was created in Module: "Management of Scientific Data" and should
+  give you an overview, how to describe your dataset and workflows the way the future
+  you and other researcher are able to use it. Enjoy!
+baseurl: "" # the subpath of your site, e.g. /blog
+#url: "" # the base hostname & protocol for your site, e.g. http://example.com
+
 theme: minima
 plugins:
   - jekyll-title-from-headings
