@@ -136,7 +136,7 @@ As already mentioned in [the previous paragraph](#keep-track-of-processing) it i
 As part of data provenance, researchers need to be able to know from where your data comes. This includes giving information on from where you sourced pre-existing data. [[1]](#cite-fair-provenance-1)
 Citing your sources may also be a legal requirement, depending on the license of the work you are citing.
 When citing, try to stick to a consistent citation style. Check with people in your field which style to use but use it consistently.
-It is also a good idea to make sure that your sources stay accessible long after publication. Including a [DOI](#persistent identifiers), when available, will guarantee permanent access to the cited resource. Otherwise, using web archive sites to capture persistent "snapshots" of webpages can also be an option. Popular providers are [archive.today](http://archive.today) as well as [Wayback Machine](https://web.archive.org/save). The generated links can then be included with your citations.
+It is also a good idea to make sure that your sources stay accessible long after publication. Including a [DOI](#include-persistent-identifiers), when available, will guarantee permanent access to the cited resource. Otherwise, using web archive sites to capture persistent "snapshots" of webpages can also be an option. Popular providers are [archive.today](http://archive.today) as well as [Wayback Machine](https://web.archive.org/save). The generated links can then be included with your citations.
 
 <div class="tip">
 Cite all your sources consistently and permanently.
@@ -146,7 +146,7 @@ Cite all your sources consistently and permanently.
 
 
 ### Use Provenance Tools
-There are many tools, that can help you in capturing your datas provenance. [ProvBook](https://github.com/Sheeba-Samuel/ProvBook) for example, captures the provenance of Jupyter Notebook executions and is also helpful in analyzing differences of several runs. Another option is [noWorkflow](https://github.com/gems-uff/noworkflow) which is aimed at capturing provenance of python scripts.
+There are many tools, that can help you in capturing your datas provenance. [ProvBook](https://github.com/Sheeba-Samuel/ProvBook) for example, captures the provenance of Jupyter Notebook executions and is also helpful in analysing differences of several runs. Another option is [noWorkflow](https://github.com/gems-uff/noworkflow) which is aimed at capturing provenance of python scripts.
 Another option are Scientific Workflow Management Systems (SwfMS). With them you can compose and execute workflows. Examples you could try are [VisTrails](https://www.vistrails.org) or [Parsl](http://parsl-project.org/).
 
 ### Date and date type
