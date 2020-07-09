@@ -88,6 +88,8 @@ Key dates associated with the data, including:
 #### Additional fields
 There is a lot of other metadata that you could and should collect, such as the languages used in your dataset or the purpose of your data collection. Just fill in the appropriate fields in your chosen standard and you should be good.
 
+<div class="tip">Start by filling in the required information from your chosen standard. Also use standard formats whenever you can.</div>
+
 ## File Management
 
 ### Create a data inventory
@@ -154,8 +156,12 @@ You might also consider using data-cleaning tools such as [OpenRefine](https://o
 Another option are electronic lab notebooks (ELN) such as the open source tool [eLabFTW](https://www.elabftw.net/).
 If neither of this options suits you, you could write log messages or keep track of the changes in a README. Make sure to use [version control](#version-your-data), especially for files that you edit manually. When describing the software you used, include the environment, where this software was running on and the version number of the software and operating system. Same for your hardware or equipment in general, add model and version numbers. This will help to re-create your pipeline if necessary.
 
+<div class="tip">Add information about your pipeline, it will help.</div>
+
 ### Version your data
 As already mentioned in [the previous paragraph](#keep-track-of-processing) it is very important to know where your data came from. If you change anything in your project, make sure to include version numbers. If you can, use a version control software like [git](https://git-scm.com/), it will almost always make your life easier. There are some things that should not be put under version control though: Binary files, large data files or results and your raw data. Your should always keep a copy of your raw data and leave it exactly in that state!
+
+<div class="tip">Use version controll it will help you manage your files.</div>
 
 ### Cite your sources
 As part of data provenance, researchers need to be able to know where your data came from. This includes giving information where you sourced pre-existing data from. [[6]](#cite-fair-provenance-1)
@@ -171,9 +177,13 @@ Cite all your sources consistently and permanently.
 There are many tools, that can help you in capturing your data's provenance. [ProvBook](https://github.com/Sheeba-Samuel/ProvBook) for example, captures the provenance of Jupyter Notebook executions and is also helpful in analysing differences of several runs. Another option is [noWorkflow](https://github.com/gems-uff/noworkflow) which is aimed at capturing provenance of python scripts.
 Another option are Scientific Workflow Management Systems (SwfMS). With them you can compose and execute workflows. Examples you could try are [VisTrails](https://www.vistrails.org) or [Parsl](http://parsl-project.org/).
 
+<div class="tip">Tools can help you with provenance.</div>
+
 ## Include persistent identifiers
 Persistent identifiers (PIDs) are used when citing and managing datasets and information. PIDs can be used in many cases. You could use one for your whole project, as PIDs can identify citable online resources, such as datasets or publications, by providing a permanent link to them. Even if the datasets location in the internet changes, the identifier remains the same and will still link to the data, regardless of the new location. Some examples of commonly used persistent identifiers are Digital Object Identifier (DOI) and Uniform Resource Name (URN). But keep in mind, PID is always a promise that the underlying data will never change. If it's necessary to make changes use a new PID and refer to the original dataset.
 There are also persistent identifiers for people such as [ORCID](https://orcid.org/). Sometimes people change their names, move to a different location etc.. A persistent identifier will stay the same nonetheless, so it is also a good idea to mention PIDs of the people that worked on the project.
+
+<div class="tip">Use persistent identifier wherever you can.</div>
 
 ## Choose a license
 
