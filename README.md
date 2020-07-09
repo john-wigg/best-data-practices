@@ -195,6 +195,5 @@ A very popular choice are the *Creative Commons* licenses (https://creativecommo
 If you are working on a software project, the MIT license is a very clear permissive license. The GNU General Public License is also a very popular choice amongst open-source software projects.
 
 <div class="tip">
-<b>REMEMBER</b><br><br>
 Add a license to your data to tell other researchers what they are allowed to with your data!
 </div>
