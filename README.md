@@ -198,10 +198,10 @@ Add a license to your data to tell other researchers what they are allowed to wi
 
 ## Sources
 
-<a id="file-naming-3"></a>[1] <https://library.stanford.edu/research/data-management-services/data-best-practices>
+<a id="file-naming-3"></a>[1] <https://library.stanford.edu/research/data-management-services/data-best-practices><br>
 <a id="cite-hopkins-inventory"></a>[2] John Hopkins University - Center for Government Excellence <https://labs.centerforgov.org/data-governance/data-inventory/><br>
-<a id="cite-beale-inventory"></a>[3] T. Beale et al.: How to create a data inventory <https://doi.org/10.21955/gatesopenres.1114885.1>
-<a id="file-naming-1"></a>[4] <https://managing-qualitative-data.org/modules/2/c/>
-<a id="file-naming-2"></a>[5] <https://www.researchgate.net/publication/270061735_Nine_simple_ways_to_make_it_easier_to_reuse_your_data>
-<a id="cite-fair-provenance-1"></a>[6] <https://www.go-fair.org/fair-principles/r1-2-metadata-associated-detailed-provenance/>
-<a id="cite-fair-provenance-2"></a>[7] <https://www.go-fair.org/fair-principles/r1-1-metadata-released-clear-accessible-data-usage-license/>
+<a id="cite-beale-inventory"></a>[3] T. Beale et al.: How to create a data inventory <https://doi.org/10.21955/gatesopenres.1114885.1><br>
+<a id="file-naming-1"></a>[4] <https://managing-qualitative-data.org/modules/2/c/><br>
+<a id="file-naming-2"></a>[5] <https://www.researchgate.net/publication/270061735_Nine_simple_ways_to_make_it_easier_to_reuse_your_data><br>
+<a id="cite-fair-provenance-1"></a>[6] <https://www.go-fair.org/fair-principles/r1-2-metadata-associated-detailed-provenance/><br>
+<a id="cite-fair-provenance-2"></a>[7] <https://www.go-fair.org/fair-principles/r1-1-metadata-released-clear-accessible-data-usage-license/><br>
