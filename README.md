@@ -80,10 +80,10 @@ Key dates associated with the data, including:
 * ime period covered by the data, 
 * and other dates associated with the data lifespan (maintenance cycle, update schedule, etc.).
 
-<div style="display:block;margin:0 auto">
+<center>
     <img src="https://imgs.xkcd.com/comics/iso_8601.png" alt="ISO 8601"><br>
     <a href="https://xkcd.com/1179/">https://xkcd.com/1179/</a>
-</div>
+</center>
 
 #### Additional fields
 There is a lot of other metadata that you could and should collect, such as the languages used in your dataset or the purpose of your data collection. Just fill in the appropriate fields in your chosen standard and you should be good.
@@ -107,7 +107,7 @@ When publishing your data, it is important that fellow researchers can actually 
 
 For images, this is usually pretty easy, as the most commonly used formats like JPEG and PNG are already open standards. Video codecs sometimes are not open but will still be recognized by commonly available programs.
 
-When sharing datasets though, this may be a bit more complicated. Consider the following scenario: You are using a program that your institution bought an expensive license for to edit your data. The program offers a proprietary file format to store the data. However, a fellow researcher may not have the means to buy a license for the program. The version you are using may also become outdated and no longer available. Due to the proprietary nature of the file format, the researcher cannot view the data in any other way.
+When sharing datasets though, this may be a bit more complicated. Consider the following scenario: Your institution bought an expensive software. You are using this software to edit your data. The program offers a proprietary file format to store the data. However, a fellow researcher may not have the means to buy a license for the software. The version you are using may also become outdated and no longer available. Due to the proprietary nature of the file format, the researcher cannot view the data in any other way.
 
 In order to prevent this, *convert* your data files to an open format after you finished working on them. If no suitable format exists, create your own format but remember to document it properly so that other researchers know how to read or open it.
 
@@ -135,10 +135,10 @@ It is also a good idea to include the date in sensible format or use some organi
 Compare to [[4]](#file-naming1),[[5]](#file-naming2),[[1]](#file-naming3).
 
 
-<div style="display:block;margin:0 auto">
+<center>
     <img src="https://imgs.xkcd.com/comics/documents.png" alt="Documents"><br>
     <a href="https://xkcd.com/1459/">https://xkcd.com/1459/</a>
-</div>
+</center>
 
 <div class="tip">
 Use a single consistent naming scheme. Be aware of name formatting to keep your file names machine readable.
