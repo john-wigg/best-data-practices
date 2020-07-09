@@ -96,9 +96,6 @@ For small projects, a fully fleshed out data inventory may not be necessary. Ins
 
 Compiling the metadata for your data inventory can be done in different ways depending on the size and/or organisation of your project: You can delegate the responsibility of adding metadata to the creators or owners of each dataset, conduct surveys and interviews with them, or create an automated process that prompts data creators to add their own metadata. Make sure to adhere to any [metadata standards](#metadata-standards) you are using. Also, be careful about the information you are sharing publicly and follow privacy guidelines. [[3]](#cite-beale-inventory)
 
-<a id="cite-hopkins-inventory"></a>[1] John Hopkins University - Center for Government Excellence <https://labs.centerforgov.org/data-governance/data-inventory/><br>
-<a id="cite-beale-inventory"></a>[2] T. Beale et al.: How to create a data inventory <https://doi.org/10.21955/gatesopenres.1114885.1>
-
 <div class="tip">
 A data inventory makes your data more accessible. It is a complete record of all files and their metadata
 </div>
@@ -142,10 +139,6 @@ https://xkcd.com/1459/
 <div class="tip">
 Use a single consistent naming scheme. Be aware of name formatting to keep your file names machine readable.
 </div>
-
-<a id="file-naming1"></a>[1] <https://managing-qualitative-data.org/modules/2/c/>
-<a id="file-naming2"></a>[2] <https://www.researchgate.net/publication/270061735_Nine_simple_ways_to_make_it_easier_to_reuse_your_data>
-<a id="file-naming3"></a>[3] <https://library.stanford.edu/research/data-management-services/data-best-practices>
 
 ## Provenance
 You and others should know where your data came from. It is very important to document everything that happened to your data starting from the beginning. Who generated your data? How was it collected? Which software did you use to process and how did you process it? Is it all your own work or did you reuse already published data... These questions and more should be answered as part of your datas provenance [[6]](#cite-fair-provenance-1).
@@ -199,7 +192,7 @@ Add a license to your data to tell other researchers what they are allowed to wi
 ## Sources
 
 <a id="file-naming-3"></a>[1] <https://library.stanford.edu/research/data-management-services/data-best-practices><br>
-<a id="cite-hopkins-inventory"></a>[2] John Hopkins University - Center for Government Excellence <https://labs.centerforgov.org/data-governance/data-inventory/><br>
+<a id="cite-hopkins-inventory"></a>[2] Johns Hopkins University - Center for Government Excellence <https://labs.centerforgov.org/data-governance/data-inventory/><br>
 <a id="cite-beale-inventory"></a>[3] T. Beale et al.: How to create a data inventory <https://doi.org/10.21955/gatesopenres.1114885.1><br>
 <a id="file-naming-1"></a>[4] <https://managing-qualitative-data.org/modules/2/c/><br>
 <a id="file-naming-2"></a>[5] <https://www.researchgate.net/publication/270061735_Nine_simple_ways_to_make_it_easier_to_reuse_your_data><br>
