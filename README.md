@@ -1,31 +1,5 @@
 # Documenting Data: Best Practices
 
-Eine coole Beschreibung, was genau das Ziel dieses Artikels ist.
-
-Die Links zu den Headern in der Checkliste funktionieren so nur auf GitHub vermutlich.
-
-Trick, den ich zum Zitieren benutze:
-
-```
-Die Text zitiert eine Quelle [[1]](#cite-example).
-
-<a id="cite-example"></a>[1] <https://github.com/john-wigg/best-data-practices>
-```
-
-sieht dann so aus:
-
-Die Text zitiert eine Quelle [[1]](#cite-example).
-
-<a id="cite-example"></a>[1] <https://github.com/john-wigg/best-data-practices>
-
-Tipp-Boxen sollten jetzt so angelegt werden, damit das CSS funktioniert:
-
-```
-<div class="tip">
-A data inventory makes your data more accessible. It is a complete record of all files and their metadata
-</div>
-```
-
 ## Checklist
 
 - [Metadata standard](#metadata-standard)
@@ -59,7 +33,7 @@ There are many types of metadata standards. Some are generic like [Dublin Core](
     <a href="https://xkcd.com/927/">https://xkcd.com/927/</a>
 </center>
 
-<div class="tip">Pick a metadat standard.</div>
+<div class="tip">Pick a metadata standard.</div>
 
 ### Fill in metadata fields
 
