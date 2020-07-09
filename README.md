@@ -198,8 +198,6 @@ Add a license to your data to tell other researchers what they are allowed to wi
 
 ## Sources
 
-## Sources
-
 <a id="file-naming-3"></a>[1] <https://library.stanford.edu/research/data-management-services/data-best-practices>
 <a id="cite-hopkins-inventory"></a>[2] John Hopkins University - Center for Government Excellence <https://labs.centerforgov.org/data-governance/data-inventory/><br>
 <a id="cite-beale-inventory"></a>[3] T. Beale et al.: How to create a data inventory <https://doi.org/10.21955/gatesopenres.1114885.1>
