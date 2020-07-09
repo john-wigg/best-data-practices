@@ -29,6 +29,8 @@ A data inventory makes your data more accessible. It is a complete record of all
 ## Checklist
 
 - [ ] [Metadata standard](#metadata-standard)
+    - [ ] [Choose a metadata standard](#choose-a-metadata-standard)
+    - [ ] [Choose metadata fields](#choose-metadata-fields)
 - [ ] [File management](#file-management)
     - [ ] [Create a data inventory](#create-a-data-inventory)
     - [ ] [Consider file formats](#consider-file-formats)
@@ -38,10 +40,6 @@ A data inventory makes your data more accessible. It is a complete record of all
     - [ ] [Version your data](#version-your-data)
     - [ ] [Cite your sources](#cite-your-sources)
     - [ ] [Use provenance tools](#use-provenance-tools)
-- [ ] [Create a data inventory](#create-a-data-inventory)
-- [ ] [Consider file formats](#consider-file-formats)
-- [ ] [File naming](#file-naming)   
-- [ ] [README](#readme)  
 - [ ] [Include persistent identifiers](#include-persistent-identifiers)
 - [ ] [Choose a license](#choose-a-license)
 
@@ -51,18 +49,24 @@ Use a metadata standard.
 Most points following should already be covered by your chosen standard, so it is a very good idea to pick a standard an then stick to it.
 The standard itself should be easily accessible and widely known, at least in your field. If this is not possible, make sure to preserve the scheme itself and its documentation along with your data [[3]](#file-naming-3).
 
+### Pick a metadata standard
+
 But how to pick a metadata standard?
 There are many types of metadata standards. Some are generic like [Dublin Core](https://dublincore.org), while other are specific to a field of research. When choosing your standard, start by asking for your organization's policies. In most of the cases, they already chose a standard and encourage you to use it. In other cases the publisher specifies what standard to use. If neither your organization, nor the publisher specifies the standard, chose the standard by the field of research or the data that is available to you. For further information, see [Metadata standards overview](http://rd-alliance.github.io/metadata-directory/standards/).
 
-### Title
+### Choose metadata fields
+
+#### Title
 Enter the name of the dataset or the project that produced it. If you choose to name the dataset according to the data, be as specific as possible.  Do not use special characters, underscore and hyphen are okay though. Other than that, the format is freely choosable.
 
-### Creator 
+#### Creator 
 Enter the Names of the researchers, that are mainly involved in creating the dataset, or the authors of the publication in order of priority.
 One good practices concerning names in general is transcribing names in Latin script, when coming from another writing system. ALA-LC (American Library Association - Library of Congress) is a set of standards for romanization, that can help you with this topic. For further information, see [ALA-LC](https://www.loc.gov/catdir/cpso/roman.html).
 
-### Funder
+#### Funder
 Add the name of the funding organization or institution. Most organization have policies for this, so ask your mentor or supervisor if you're not aware of those.
+
+#### Additional fields
 
 ## File Management
 
