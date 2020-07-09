@@ -78,14 +78,7 @@ Key dates associated with the data, including:
 ![ISO 8601](https://imgs.xkcd.com/comics/iso_8601.png "ISO 8601 https://xkcd.com/1179/")
 
 #### Additional fields
-TODO
-Keep a README or something similar in your file folders to give other users of your data (or yourself) a better overview. Metadata you could include:
-* Subject: Describe the content of your data in keywords or short sentences
-* Place: Include the physical locations of your data collection
-* Languages: Mention all languages used in your data
-* Variable List: Describe the variables used in the data files
-* Code list: Explain the abbreviations used in your project
-* Null character: Specify which Null character you used
+There is a lot of other metadata that you could and should collect, such as the languages used in your dataset or the purpose of your data collection. Just fill in the appropriate fields in your chosen standard and you should be good.
 
 ## File Management
 
