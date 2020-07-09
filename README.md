@@ -1,6 +1,6 @@
 # Documenting Data: Best Practices
 
-This checklist was created in Module: "Management of Scientific Data" and should give you an overview, how to describe your dataset and workflows, the way the future you and other researcher are able to use it. Enjoy!
+This checklist was created in the module: "Management of Scientific Data" and should give you an overview on how to describe your dataset and workflows, the way the future you and other researchers are able to use it.
 
 
 ## Checklist
