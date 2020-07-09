@@ -55,7 +55,7 @@ But how to pick a metadata standard?
 There are many types of metadata standards. Some are generic like [Dublin Core](https://dublincore.org), while other are specific to a field of research. When choosing your standard, start by asking for your organization's policies. In most of the cases, they already chose a standard and encourage you to use it. In other cases the publisher specifies what standard to use. If neither your organization, nor the publisher specifies the standard, chose the standard by the field of research or the data that is available to you. For further information, see [Metadata standards overview](http://rd-alliance.github.io/metadata-directory/standards/).
 
 <div style="margin: 0 auto">
-    	<img src=https://imgs.xkcd.com/comics/standards.png alt="ISO 8601"><br>
+    	<img src="https://imgs.xkcd.com/comics/standards.png" alt="Standards"><br>
         https://xkcd.com/927/
 </div>
 
@@ -81,7 +81,7 @@ Key dates associated with the data, including:
 * and other dates associated with the data lifespan (maintenance cycle, update schedule, etc.).
 
 <div style="margin: 0 auto">
-    	<img src=https://imgs.xkcd.com/comics/iso_8601.png alt="ISO 8601"><br>
+    	<img src="https://imgs.xkcd.com/comics/iso_8601.png" alt="ISO 8601"><br>
         https://xkcd.com/1179/
 </div>
 
@@ -136,7 +136,7 @@ Compare to [[4]](#file-naming1),[[5]](#file-naming2),[[1]](#file-naming3).
 
 
 <div style="margin: 0 auto">
-    	<img src=https://imgs.xkcd.com/comics/documents.png alt=""An example for very bad practice"><br>
+    	<img src="https://imgs.xkcd.com/comics/documents.png" alt="Documents"><br>
         https://xkcd.com/1459/
 </div>
 
