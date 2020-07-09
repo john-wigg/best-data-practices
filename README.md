@@ -47,7 +47,7 @@ A data inventory makes your data more accessible. It is a complete record of all
 This is the most important of the following points:
 Use a metadata standard. 
 Most points following should already be covered by your chosen standard, so it is a very good idea to pick a standard an then stick to it.
-The standard itself should be easily accessible and widely known, at least in your field. If this is not possible, make sure to preserve the scheme itself and its documentation along with your data [[3]](#file-naming-3).
+The standard itself should be easily accessible and widely known, at least in your field. If this is not possible, make sure to preserve the scheme itself and its documentation along with your data [[1]](#file-naming-3).
 
 ### Pick a metadata standard
 
@@ -90,12 +90,11 @@ Keep a README or something similar in your file folders to give other users of y
 ## File Management
 
 ### Create a data inventory
-
-A data inventory is a full record of all files contained in your dataset. It records the location and metadata of your files and makes it easier for the viewer to narrow down which files are relevant to them. [[1]](#cite-hopkins-inventory)
+A data inventory is a full record of all files contained in your dataset. It records the location and metadata of your files and makes it easier for the viewer to narrow down which files are relevant to them. [[2]](#cite-hopkins-inventory)
 
 For small projects, a fully fleshed out data inventory may not be necessary. Instead, a spreadsheet or a readme file explaining your data structure may suffice. Larger projects, however, may use databases for their inventories.
 
-Compiling the metadata for your data inventory can be done in different ways depending on the size and/or organisation of your project: You can delegate the responsibility of adding metadata to the creators or owners of each dataset, conduct surveys and interviews with them, or create an automated process that prompts data creators to add their own metadata. Make sure to adhere to any [metadata standards](#metadata-standards) you are using. Also, be careful about the information you are sharing publicly and follow privacy guidelines. [[2]](#cite-beale-inventory)
+Compiling the metadata for your data inventory can be done in different ways depending on the size and/or organisation of your project: You can delegate the responsibility of adding metadata to the creators or owners of each dataset, conduct surveys and interviews with them, or create an automated process that prompts data creators to add their own metadata. Make sure to adhere to any [metadata standards](#metadata-standards) you are using. Also, be careful about the information you are sharing publicly and follow privacy guidelines. [[3]](#cite-beale-inventory)
 
 <a id="cite-hopkins-inventory"></a>[1] John Hopkins University - Center for Government Excellence <https://labs.centerforgov.org/data-governance/data-inventory/><br>
 <a id="cite-beale-inventory"></a>[2] T. Beale et al.: How to create a data inventory <https://doi.org/10.21955/gatesopenres.1114885.1>
@@ -135,7 +134,7 @@ Also, observe some guidelines on formatting your file names so as to achieve goo
   * Use leading zeros for sequential numbering.
   
 It is also a good idea to include the date in sensible format or use some organisational elements for fast identification such as short names for locations.
-Compare to [[1]](#file-naming1),[[2]](#file-naming2),[[3]](#file-naming3).
+Compare to [[4]](#file-naming1),[[5]](#file-naming2),[[1]](#file-naming3).
 
 ![Example for bad practice](https://imgs.xkcd.com/comics/documents.png "An example for very bad practice https://xkcd.com/1459/")
 https://xkcd.com/1459/
@@ -149,7 +148,7 @@ Use a single consistent naming scheme. Be aware of name formatting to keep your 
 <a id="file-naming3"></a>[3] <https://library.stanford.edu/research/data-management-services/data-best-practices>
 
 ## Provenance
-You and others should know where your data came from. It is very important to document everything that happened to your data starting from the beginning. Who generated your data? How was it collected? Which software did you use to process and how did you process it? Is it all your own work or did you reuse already published data... These questions and more should be answered as part of your datas provenance [[1]](#cite-fair-provenance-1).
+You and others should know where your data came from. It is very important to document everything that happened to your data starting from the beginning. Who generated your data? How was it collected? Which software did you use to process and how did you process it? Is it all your own work or did you reuse already published data... These questions and more should be answered as part of your datas provenance [[6]](#cite-fair-provenance-1).
 
 ### Keep track of processing
 It is very important to keep track of all the steps used to process raw data.
@@ -162,7 +161,7 @@ If neither of this options suits you, you could write log messages or keep track
 As already mentioned in [the previous paragraph](#keep-track-of-processing) it is very important to know where your data came from. If you change anything in your project, make sure to include version numbers. If you can, use a version control software like [git](https://git-scm.com/), it will almost always make your life easier. There are some things that should not be put under version control though: Binary files, large data files or results and your raw data. Your should always keep a copy of your raw data and leave it exactly in that state!
 
 ### Cite your sources
-As part of data provenance, researchers need to be able to know from where your data comes. This includes giving information on from where you sourced pre-existing data. [[1]](#cite-fair-provenance-1)
+As part of data provenance, researchers need to be able to know from where your data comes. This includes giving information on from where you sourced pre-existing data. [[7]](#cite-fair-provenance-1)
 Citing your sources may also be a legal requirement, depending on the license of the work you are citing.
 When citing, try to stick to a consistent citation style. Check with people in your field which style to use but use it consistently.
 It is also a good idea to make sure that your sources stay accessible long after publication. Including a [DOI](#include-persistent-identifiers), when available, will guarantee permanent access to the cited resource. Otherwise, using web archive sites to capture persistent "snapshots" of webpages can also be an option. Popular providers are [archive.today](http://archive.today) as well as [Wayback Machine](https://web.archive.org/save). The generated links can then be included with your citations.
@@ -170,9 +169,6 @@ It is also a good idea to make sure that your sources stay accessible long after
 <div class="tip">
 Cite all your sources consistently and permanently.
 </div>
-
-<a id="cite-fair-provenance-1"></a>[1] <https://www.go-fair.org/fair-principles/r1-2-metadata-associated-detailed-provenance/>
-
 
 ### Use Provenance Tools
 There are many tools, that can help you in capturing your datas provenance. [ProvBook](https://github.com/Sheeba-Samuel/ProvBook) for example, captures the provenance of Jupyter Notebook executions and is also helpful in analysing differences of several runs. Another option is [noWorkflow](https://github.com/gems-uff/noworkflow) which is aimed at capturing provenance of python scripts.
@@ -188,7 +184,7 @@ When opening your project or data to the public, it is important to choose a lic
 
 If publishing in a journals, there may by restrictions on what licenses you are allowed to use so make sure to check with your publisher first.
 
-Licensing may also be a factor when applying the FAIR data principles: To meet the R (Reusable) criteria your *(Meta)data are released with a clear and accessible data usage license* [[1]](#cite-fair-license). The protocol you are using should also be *open, free and universally implementable* so make sure you read the licenses of any component you are using as well. Licensing also makes sure that researcher re-using your data know how to cite you, an important aspect of data provenance in FAIR data [[2]](#cite-fair-provenance-2).
+Licensing may also be a factor when applying the FAIR data principles: To meet the R (Reusable) criteria your *(Meta)data are released with a clear and accessible data usage license* [[8]](#cite-fair-license). The protocol you are using should also be *open, free and universally implementable* so make sure you read the licenses of any component you are using as well. Licensing also makes sure that researcher re-using your data know how to cite you, an important aspect of data provenance in FAIR data [[9]](#cite-fair-provenance-2).
 
 There are good resources to learn about and choose the correct license for your publication https://choosealicense.com/.
 
@@ -199,3 +195,15 @@ If you are working on a software project, the MIT license is a very clear permis
 <div class="tip">
 Add a license to your data to tell other researchers what they are allowed to with your data!
 </div>
+
+## Sources
+
+## Sources
+
+<a id="file-naming-3"></a>[1] <https://library.stanford.edu/research/data-management-services/data-best-practices>
+<a id="cite-hopkins-inventory"></a>[2] John Hopkins University - Center for Government Excellence <https://labs.centerforgov.org/data-governance/data-inventory/><br>
+<a id="cite-beale-inventory"></a>[3] T. Beale et al.: How to create a data inventory <https://doi.org/10.21955/gatesopenres.1114885.1>
+<a id="file-naming-1"></a>[4] <https://managing-qualitative-data.org/modules/2/c/>
+<a id="file-naming-2"></a>[5] <https://www.researchgate.net/publication/270061735_Nine_simple_ways_to_make_it_easier_to_reuse_your_data>
+<a id="cite-fair-provenance-1"></a>[6] <https://www.go-fair.org/fair-principles/r1-2-metadata-associated-detailed-provenance/>
+<a id="cite-fair-provenance-2"></a>[7] <https://www.go-fair.org/fair-principles/r1-1-metadata-released-clear-accessible-data-usage-license/>
