@@ -29,8 +29,8 @@ A data inventory makes your data more accessible. It is a complete record of all
 ## Checklist
 
 - [ ] [Metadata standard](#metadata-standard)
-    - [ ] [Choose a metadata standard](#choose-a-metadata-standard)
-    - [ ] [Choose metadata fields](#choose-metadata-fields)
+    - [ ] [Pick a metadata standard](#choose-a-metadata-standard)
+    - [ ] [Fill metadata fields](#choose-metadata-fields)
 - [ ] [File management](#file-management)
     - [ ] [Create a data inventory](#create-a-data-inventory)
     - [ ] [Consider file formats](#consider-file-formats)
