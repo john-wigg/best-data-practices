@@ -59,6 +59,8 @@ There are many types of metadata standards. Some are generic like [Dublin Core](
     <a href="https://xkcd.com/927/">https://xkcd.com/927/</a>
 </center>
 
+<div class="tip">Pick a metadat standard.</div>
+
 ### Fill in metadata fields
 
 #### Title
