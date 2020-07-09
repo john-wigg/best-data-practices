@@ -66,7 +66,26 @@ One good practices concerning names in general is transcribing names in Latin sc
 #### Funder
 Add the name of the funding organization or institution. Most organization have policies for this, so ask your mentor or supervisor if you're not aware of those.
 
+#### Date and date type
+When dates are involved it is important to name the format related to the date. Otherwise it is not clear how to process the data. Most meta data standards desribe the selectable options quit well, for example DataCite accepts all date formats defined by the [World Wide Web Consortium](https://www.w3.org/) (W3C). Other standards may encourage you to use ISO 8601.
+
+Key dates associated with the data, including:
+* project start and end date,
+* release date,
+* ime period covered by the data, 
+* and other dates associated with the data lifespan (maintenance cycle, update schedule, etc.).
+
+![ISO 8601](https://imgs.xkcd.com/comics/iso_8601.png "ISO 8601 https://xkcd.com/1179/")
+
 #### Additional fields
+TODO
+Keep a README or something similar in your file folders to give other users of your data (or yourself) a better overview. Metadata you could include:
+* Subject: Describe the content of your data in keywords or short sentences
+* Place: Include the physical locations of your data collection
+* Languages: Mention all languages used in your data
+* Variable List: Describe the variables used in the data files
+* Code list: Explain the abbreviations used in your project
+* Null character: Specify which Null character you used
 
 ## File Management
 
@@ -159,32 +178,11 @@ Cite all your sources consistently and permanently.
 There are many tools, that can help you in capturing your datas provenance. [ProvBook](https://github.com/Sheeba-Samuel/ProvBook) for example, captures the provenance of Jupyter Notebook executions and is also helpful in analysing differences of several runs. Another option is [noWorkflow](https://github.com/gems-uff/noworkflow) which is aimed at capturing provenance of python scripts.
 Another option are Scientific Workflow Management Systems (SwfMS). With them you can compose and execute workflows. Examples you could try are [VisTrails](https://www.vistrails.org) or [Parsl](http://parsl-project.org/).
 
-### Date and date type
-When dates are involved it is important to name the format related to the date. Otherwise it is not clear how to process the data. Most meta data standards desribe the selectable options quit well, for example DataCite accepts all date formats defined by the [World Wide Web Consortium](https://www.w3.org/) (W3C). Other standards may encourage you to use ISO 8601.
-
-Key dates associated with the data, including:
-* project start and end date,
-* release date,
-* ime period covered by the data, 
-* and other dates associated with the data lifespan (maintenance cycle, update schedule, etc.).
-
-![ISO 8601](https://imgs.xkcd.com/comics/iso_8601.png "ISO 8601 https://xkcd.com/1179/")
-
-### README
-
-Keep a README or something similar in your file folders to give other users of your data (or yourself) a better overview. Metadata you could include:
-* Subject: Describe the content of your data in keywords or short sentences
-* Place: Include the physical locations of your data collection
-* Languages: Mention all languages used in your data
-* Variable List: Describe the variables used in the data files
-* Code list: Explain the abbreviations used in your project
-* Null character: Specify which Null character you used
-
-### Include persistent identifiers
+## Include persistent identifiers
 Persistent identifiers (PIDs) are used when citing and managing datasets and information. PIDs can be used in many cases. You could use one for your whole project, as PIDs can identify citable online resources, such as datasets or publications, by providing a permanent link to them. Even if the datasets location in the internet changes, the identifier remains the same and will still link to the data, regardless of the new location. Some examples of commonly used persistent identifiers are Digital Object Identifier (DOI) and Uniform Resource Name (URN). But keep in mind, PID is always a promise that the underlying data will never change. If it's necessary to make changes use a new PID and refer to the original dataset.
 There are also persistent identifiers for people such as [ORCID](https://orcid.org/). Sometimes people change their names, move to a different location etc.. A persistent identifier will stay the same nonetheless, so it is also a good idea to mention PIDs of the people that worked on the project.
 
-### Choose a license
+## Choose a license
 
 When opening your project or data to the public, it is important to choose a license. This does not only apply to software projects but really to all kinds of data as well. Without a license, colleagues viewing your publication won't know what they are allowed to with your data and what they aren't.
 
